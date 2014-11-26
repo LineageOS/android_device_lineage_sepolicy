@@ -1,0 +1,3 @@
+# Superuser's control sockets
+/dev/com.android.settings.daemon(/.*)?   u:object_r:superuser_device:s0
+/dev/com.android.settings(/.*)?   u:object_r:superuser_device:s0
