@@ -1,2 +1,5 @@
 # Fingerprint
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.0-service u:object_r:hal_fingerprint_default_exec:s0
+
+# Userinit
+/system/etc/init\.d/90userinit          u:object_r:userinit_exec:s0
