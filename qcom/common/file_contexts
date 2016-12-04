@@ -3,6 +3,9 @@
 /persist/.bt_nv.bin                                           u:object_r:bluetooth_data_file:s0
 /system/etc/init.qcom.bt.sh                                   u:object_r:bluetooth_loader_exec:s0
 
+# mpdecision
+/data/misc/perfd(/.*)?                                        u:object_r:mpctl_socket:s0
+
 # Power
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.0-service-qti      u:object_r:hal_power_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.1-service-qti      u:object_r:hal_power_default_exec:s0
