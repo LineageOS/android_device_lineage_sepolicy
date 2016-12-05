@@ -3,5 +3,8 @@
 /persist/.bt_nv.bin                                           u:object_r:bluetooth_data_file:s0
 /system/etc/init.qcom.bt.sh                                   u:object_r:bluetooth_loader_exec:s0
 
+# MAC address generation
+/persist/\.genmac                                             u:object_r:wifi_data_file:s0
+
 # mpdecision
 /data/misc/perfd(/.*)?                                        u:object_r:mpctl_socket:s0
