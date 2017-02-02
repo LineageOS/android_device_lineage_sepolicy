@@ -8,6 +8,11 @@
 # OTA packages
 /data/lineageos_updates(/.*)?           u:object_r:ota_package_file:s0
 
+# Postinstall
+/system/bin/backuptool_ab\.functions              u:object_r:otapreopt_chroot_exec:s0
+/system/bin/backuptool_ab\.sh                     u:object_r:otapreopt_chroot_exec:s0
+/system/bin/backuptool_postinstall\.sh            u:object_r:otapreopt_chroot_exec:s0
+
 # Recovery
 /sbin/minivold                          u:object_r:vold_exec:s0
 
@@ -22,3 +27,4 @@
 /sys/devices/virtual/timed_output/vibrator/vtg_level u:object_r:sysfs_vibrator:s0
 /sys/devices/virtual/timed_output/vibrator/vtg_min u:object_r:sysfs_vibrator:s0
 /sys/devices/virtual/timed_output/vibrator/vtg_max u:object_r:sysfs_vibrator:s0
+
