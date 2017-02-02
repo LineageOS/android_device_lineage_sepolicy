@@ -1,0 +1,4 @@
+dontaudit priv_app device:dir read;
+dontaudit priv_app proc_interrupts:file read;
+
+allow priv_app ota_package_file:dir create_dir_perms;
