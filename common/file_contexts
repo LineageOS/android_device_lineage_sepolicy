@@ -1,0 +1,1 @@
+file_contexts:/sys/devices/virtual/graphics/fb0/rgb           u:object_r:livedisplay_sysfs:s0
