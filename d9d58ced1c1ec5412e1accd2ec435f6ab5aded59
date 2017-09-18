@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de68ce45_98dda842",
+        "filename": "qcom/common/netmgrd.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 16004
+      },
+      "writtenOn": "2017-09-18T17:43:00Z",
+      "side": 1,
+      "message": "This requires netd HAL https://source.codeaurora.org/quic/la/platform/system/hardware/interfaces/commit/?h\u003dLA.UM.6.4.r1-03500-8x98.0\u0026id\u003d271fefa61987b8638ed3bc31f31b175ccccaeffb",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 63
+      },
+      "revId": "d9d58ced1c1ec5412e1accd2ec435f6ab5aded59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
