@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "359917eb_16880dbf",
+        "filename": "qcom/msm8974/netmgrd.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-03T20:47:23Z",
+      "side": 1,
+      "message": "I think that there\u0027s no point to merge this as is, to later fix it.",
+      "range": {
+        "startLine": 1,
+        "startChar": 30,
+        "endLine": 1,
+        "endChar": 42
+      },
+      "revId": "53cd5452b63714343cfcc540583714a778012fde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
