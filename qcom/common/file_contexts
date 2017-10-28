@@ -1,7 +1,7 @@
 # Bluetooth
 /dev/smd3                                                     u:object_r:hci_attach_dev:s0
 /persist/.bt_nv.bin                                           u:object_r:bluetooth_data_file:s0
-/system/etc/init.qcom.bt.sh                                   u:object_r:bluetooth_loader_exec:s0
+/(vendor|system/vendor)/etc/init.qcom.bt.sh                   u:object_r:bluetooth_loader_exec:s0
 
 # Charger
 /sys/devices/qpnp-charger-*/power_supply/dc(/.*)?             u:object_r:sysfs_dc_supply:s0
