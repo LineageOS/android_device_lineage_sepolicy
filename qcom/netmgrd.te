@@ -1,0 +1,4 @@
+ifelse(target_full_treble, `true',
+,
+  allow netmgrd { shell_exec toolbox_exec }:file rx_file_perms;
+)
