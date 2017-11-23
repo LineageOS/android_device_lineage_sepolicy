@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "7e4052f9_674de0a7",
+        "filename": "common/private/sysinit.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-11-23T23:41:23Z",
+      "side": 1,
+      "message": "This is kind of weird to me... That file is for users to put arbitrary stuff into?",
+      "range": {
+        "startLine": 13,
+        "startChar": 18,
+        "endLine": 13,
+        "endChar": 36
+      },
+      "revId": "866d5a772352a9582a929e06b67b040ad952ab76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "decb5744_6c5eb712",
         "filename": "common/private/sysinit.te",
         "patchSetId": 3
