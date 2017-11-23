@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "decb5744_6c5eb712",
+        "filename": "common/private/sysinit.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-11-23T17:47:34Z",
+      "side": 1,
+      "message": "Need to check if we can get rid of dac_override by adding the proper GID(s) to the service.",
+      "range": {
+        "startLine": 16,
+        "startChar": 4,
+        "endLine": 16,
+        "endChar": 47
+      },
+      "revId": "866d5a772352a9582a929e06b67b040ad952ab76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
