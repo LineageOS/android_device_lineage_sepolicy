@@ -3,6 +3,9 @@
 # inherit from Lineage
 #
 
+BOARD_SEPOLICY_DIRS += \
+    device/lineage/sepolicy/common
+
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
     device/lineage/sepolicy/common/public
 
