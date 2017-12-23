@@ -3,3 +3,9 @@
 
 # OTA packages
 /data/lineageos_updates(/.*)?           u:object_r:ota_package_file:s0
+
+# Vibrator HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator@1\.0-service\.lineage u:object_r:hal_vibrator_default_exec:s0
+/sys/devices/virtual/timed_output/vibrator/vtg_level u:object_r:sysfs_vibrator:s0
+/sys/devices/virtual/timed_output/vibrator/vtg_min u:object_r:sysfs_vibrator:s0
+/sys/devices/virtual/timed_output/vibrator/vtg_max u:object_r:sysfs_vibrator:s0
