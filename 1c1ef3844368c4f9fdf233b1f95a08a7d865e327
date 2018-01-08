@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e0dd6c62_67a5fb15",
+        "filename": "common/public/su.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 6753
+      },
+      "writtenOn": "2018-01-08T23:20:41Z",
+      "side": 1,
+      "message": "Were going to need this back, just bypassing a neverallow for now.",
+      "revId": "1c1ef3844368c4f9fdf233b1f95a08a7d865e327",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
