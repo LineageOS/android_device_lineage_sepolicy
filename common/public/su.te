@@ -3,21 +3,14 @@ type superuser_device, file_type, mlstrustedobject;
 ## Perms for the daemon
 
 userdebug_or_eng(`
-  domain_trans(init, su_exec, sudaemon)
-
   typeattribute sudaemon domain, mlstrustedsubject;
 
-  type_transition sudaemon socket_device:sock_file superuser_device;
   # The userspace app uses /dev sockets to control per-app access
   allow sudaemon superuser_device:dir { create rw_dir_perms setattr unlink };
   allow sudaemon superuser_device:sock_file { create setattr unlink write };
 
-  # sudaemon is also permissive to permit setenforce.
-  permissive sudaemon;
-
   # Add sudaemon to various domains
   net_domain(sudaemon)
-  app_domain(sudaemon)
 
   dontaudit sudaemon self:capability_class_set *;
   dontaudit sudaemon kernel:security *;
@@ -54,11 +47,10 @@ userdebug_or_eng(`
   # typealias shell alias suclient;
   # domain_auto_trans(untrusted_app, su_exec, suclient)
 
-  allow untrusted_app su_exec:file { execute_no_trans getattr open read execute };
-  allow untrusted_app sudaemon:unix_stream_socket { connectto read write setopt ioctl };
-  allow untrusted_app superuser_device:dir { r_dir_perms };
-  allow untrusted_app superuser_device:sock_file { write };
-
+  allow untrusted_app_all su_exec:file { execute_no_trans getattr open read execute };
+  allow untrusted_app_all sudaemon:unix_stream_socket { connectto read write setopt ioctl };
+  allow untrusted_app_all superuser_device:dir { r_dir_perms };
+  allow untrusted_app_all superuser_device:sock_file { write };
 
   # For Settings control of access
   allow system_app superuser_device:sock_file { read write create setattr unlink getattr };
@@ -68,4 +60,4 @@ userdebug_or_eng(`
   allow kernel sudaemon:fd { use };
 ')
 
-neverallow { domain userdebug_or_eng(`-dumpstate -shell -su -untrusted_app -init -sudaemon') } su_exec:file no_x_file_perms;
+neverallow { domain userdebug_or_eng(`-dumpstate -shell -su -untrusted_app_all -init -sudaemon') } su_exec:file no_x_file_perms;
