@@ -3,21 +3,15 @@ type superuser_device, file_type, mlstrustedobject;
 ## Perms for the daemon
 
 userdebug_or_eng(`
-  domain_trans(init, su_exec, sudaemon)
 
   typeattribute sudaemon domain, mlstrustedsubject;
 
-  type_transition sudaemon socket_device:sock_file superuser_device;
   # The userspace app uses /dev sockets to control per-app access
   allow sudaemon superuser_device:dir { create rw_dir_perms setattr unlink };
   allow sudaemon superuser_device:sock_file { create setattr unlink write };
 
-  # sudaemon is also permissive to permit setenforce.
-  permissive sudaemon;
-
   # Add sudaemon to various domains
   net_domain(sudaemon)
-  app_domain(sudaemon)
 
   dontaudit sudaemon self:capability_class_set *;
   dontaudit sudaemon kernel:security *;
