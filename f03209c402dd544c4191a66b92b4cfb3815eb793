@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "aa4ddd3b_ddc524eb",
+        "filename": "qcom/common/device.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-01-17T18:42:11Z",
+      "side": 1,
+      "message": "This file doesn\u0027t belong to this commit",
+      "revId": "f03209c402dd544c4191a66b92b4cfb3815eb793",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
