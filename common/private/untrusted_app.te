@@ -1,2 +1,2 @@
-allow untrusted_app lineage_weather_service:service_manager find;
-allow untrusted_app lineage_profile_service:service_manager find;
+allow untrusted_app_all lineage_profile_service:service_manager find;
+allow untrusted_app_all lineage_weather_service:service_manager find;
