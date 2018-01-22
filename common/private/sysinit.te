@@ -1,4 +1,4 @@
-type sysinit, domain;
+type sysinit, domain, coredomain;
 type sysinit_exec, exec_type, file_type;
 
 # Allow for transition from init domain to sysinit
