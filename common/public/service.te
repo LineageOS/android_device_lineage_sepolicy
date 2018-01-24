@@ -3,6 +3,4 @@ type lineage_hardware_service, system_api_service, system_server_service, servic
 type lineage_livedisplay_service, system_api_service, system_server_service, service_manager_type;
 type lineage_performance_service, system_api_service, system_server_service, service_manager_type;
 type lineage_profile_service, system_api_service, system_server_service, service_manager_type;
-type lineage_status_bar_service, system_api_service, system_server_service, service_manager_type;
-type lineage_telephony_service, system_api_service, system_server_service, service_manager_type;
 type lineage_weather_service, system_api_service, system_server_service, service_manager_type;
