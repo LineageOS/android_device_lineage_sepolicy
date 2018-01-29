@@ -10,3 +10,7 @@ allow hal_lineage_livedisplay_exynos hal_display_color_hwservice:hwservice_manag
 type hal_display_color_default, domain;
 binder_call(hal_lineage_livedisplay_exynos, hal_display_color_default)
 binder_use(hal_lineage_livedisplay_exynos)
+
+# Allow LiveDisplay to store files under /data/vendor/display and access them
+allow hal_lineage_livedisplay_exynos display_vendor_data_file:dir rw_dir_perms;
+allow hal_lineage_livedisplay_exynos display_vendor_data_file:file create_file_perms;
