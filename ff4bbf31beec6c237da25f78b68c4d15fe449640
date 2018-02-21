@@ -22,6 +22,30 @@
       "revId": "ff4bbf31beec6c237da25f78b68c4d15fe449640",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4401092d_a7d48297",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2018-02-21T16:00:39Z",
+      "side": 1,
+      "message": "I guess not. I can remove it.",
+      "parentUuid": "f1e00f06_4c863a6f",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 46
+      },
+      "revId": "ff4bbf31beec6c237da25f78b68c4d15fe449640",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
