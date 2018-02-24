@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a5a93321_2ec18df3",
+        "filename": "qcom/common/system_server.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-02-24T23:00:47Z",
+      "side": 0,
+      "message": "This can probably be removed now, if everyone switches to the HIDLized HAL.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 61
+      },
+      "revId": "5e84bfc96ec99eb17be5fe09e9034e83590bf1a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
