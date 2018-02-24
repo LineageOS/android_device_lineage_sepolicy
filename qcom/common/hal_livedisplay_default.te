@@ -1,0 +1,2 @@
+# Add display.qservice service to servicemanager
+#add_service(hal_livedisplay_default, qdisplay_service)
