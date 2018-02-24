@@ -46,6 +46,30 @@
       "revId": "9f5f7b18894f396f8943e29f56ff0ef2c9763913",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d7e80f4f_4e412540",
+        "filename": "qcom/common/hal_livedisplay_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-02-24T19:31:01Z",
+      "side": 1,
+      "message": "02-24 19:36:58.708   430   430 E SELinux : avc:  denied  { find } for service\u003ddisplay.qservice pid\u003d506 uid\u003d1000 scontext\u003du:r:hal_livedisplay_default:s0 tcontext\u003du:object_r:qdisplay_service:s0 tclass\u003dservice_manager permissive\u003d0",
+      "parentUuid": "83a5d3e3_dc0e6124",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 55
+      },
+      "revId": "9f5f7b18894f396f8943e29f56ff0ef2c9763913",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
