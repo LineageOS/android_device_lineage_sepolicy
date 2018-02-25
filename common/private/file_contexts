@@ -8,11 +8,11 @@
 # OTA packages
 /data/lineageos_updates(/.*)?           u:object_r:ota_package_file:s0
 
+# Recovery
+/sbin/minivold                          u:object_r:vold_exec:s0
+
 # Sysinit
 /system/bin/sysinit                     u:object_r:sysinit_exec:s0
-
-# For minivold in recovery
-/sbin/minivold                          u:object_r:vold_exec:s0
 
 # Userinit
 /data/local/userinit\.sh                u:object_r:userinit_data_exec:s0
