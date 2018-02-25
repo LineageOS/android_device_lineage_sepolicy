@@ -22,6 +22,30 @@
       "revId": "5e84bfc96ec99eb17be5fe09e9034e83590bf1a6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b52a641b_95cc9549",
+        "filename": "qcom/common/system_server.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2018-02-25T00:30:57Z",
+      "side": 0,
+      "message": "Can be removed. HIDL is designed to replace jni. Anyway jni won\u0027t work with O.",
+      "parentUuid": "a5a93321_2ec18df3",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 61
+      },
+      "revId": "5e84bfc96ec99eb17be5fe09e9034e83590bf1a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
