@@ -5,8 +5,6 @@ recovery_only(`
 allow recovery pstorefs:dir search;
 allow recovery pstorefs:file { open read };
 allow recovery sf_lcd_density_prop:file { getattr open read };
-allow recovery sysfs_graphics:dir search;
-allow recovery sysfs_graphics:file { getattr open read write };
 allow recovery vold:unix_stream_socket connectto;
 allow recovery vold_socket:sock_file write;
 ##allow recovery default_prop:property_service set;
