@@ -21,6 +21,12 @@ allow recovery rootfs:dir { write create rmdir add_name remove_name };
 # Sideload cache
 allow recovery proc_meminfo:file { getattr open read };
 
+# Battery and USB status
+allow recovery sysfs_battery_supply:dir search;
+allow recovery sysfs_battery_supply:file { getattr open read };
+allow recovery sysfs_usb_supply:dir search;
+allow recovery sysfs_usb_supply:file { getattr open read };
+
 # Read storage files and directories
 allow recovery tmpfs:dir mounton;
 r_dir_file(recovery, media_rw_data_file)
