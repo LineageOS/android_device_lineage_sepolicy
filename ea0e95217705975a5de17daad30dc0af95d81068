@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "89ae171a_024410d7",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2018-03-31T15:31:46Z",
+      "side": 1,
+      "message": "Isn\u0027t all of this basically create_dir_perms/create_file_perms ?",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 85
+      },
+      "revId": "ea0e95217705975a5de17daad30dc0af95d81068",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
