@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "776cb5b4_452df031",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 18566
+      },
+      "writtenOn": "2018-04-02T12:29:21Z",
+      "side": 1,
+      "message": "Isn\u0027t this rx_file_perms?",
+      "revId": "8a6dec3781e16ddad77c2f77fa0796e4ceae56a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "68d46701_afb7fea5",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 18566
+      },
+      "writtenOn": "2018-04-02T12:29:21Z",
+      "side": 1,
+      "message": "Ditto",
+      "revId": "8a6dec3781e16ddad77c2f77fa0796e4ceae56a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
