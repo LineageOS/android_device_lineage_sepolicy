@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "26ab097d_3222f63e",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 18566
+      },
+      "writtenOn": "2018-04-02T12:44:32Z",
+      "side": 1,
+      "message": "Those brackets are unnecessary, and aren\u0027t there on the rest of the lines",
+      "revId": "b22c52831ca179f72541157735e604f15d9e6108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
