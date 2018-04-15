@@ -1,0 +1,7 @@
+type snap_app, domain, coredomain;
+
+app_domain(snap_app)
+net_domain(snap_app)
+
+# Allow to read and execute libjni_*.so
+allow snap_app vendor_file:file rx_file_perms;
