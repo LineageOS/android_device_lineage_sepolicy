@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "875c8064_fad92c9b",
+        "filename": "qcom/private/recovery.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-04-15T22:09:30Z",
+      "side": 0,
+      "message": "You removed write perms here, recovery can\u0027t set the brightness now",
+      "range": {
+        "startLine": 4,
+        "startChar": 55,
+        "endLine": 4,
+        "endChar": 60
+      },
+      "revId": "bc6bf77d1946588241dbedc961b9fc8392206bf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
