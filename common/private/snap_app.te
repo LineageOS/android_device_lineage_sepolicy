@@ -1,0 +1,5 @@
+type snap_app, domain;
+app_domain(snap_app)
+
+# Allow to read an execute libjni_*.so
+allow snap_app vendor_file:file { r_file_perms execute };
