@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "13bbdfc8_3a40088c",
+        "filename": "common/private/snap_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2018-04-15T21:48:22Z",
+      "side": 1,
+      "message": "rx_file_perms ?",
+      "revId": "0eb0e8b5ff8511ceb5dbc111774d9cfcf7f6ed78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
