@@ -22,6 +22,30 @@
       "revId": "bc6bf77d1946588241dbedc961b9fc8392206bf9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f7599329_9bf022e2",
+        "filename": "qcom/private/recovery.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2018-04-16T18:16:05Z",
+      "side": 0,
+      "message": "argh, sorry, missed that one",
+      "parentUuid": "875c8064_fad92c9b",
+      "range": {
+        "startLine": 4,
+        "startChar": 55,
+        "endLine": 4,
+        "endChar": 60
+      },
+      "revId": "bc6bf77d1946588241dbedc961b9fc8392206bf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
