@@ -22,6 +22,30 @@
       "revId": "5ebc0dc6921573400552707f48a7c939fae1e7a5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7e65af90_207fd230",
+        "filename": "qcom/common/hal_livedisplay_default.te",
+        "patchSetId": 7
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-04-17T08:26:49Z",
+      "side": 1,
+      "message": "livedisplay_initial_mode and livedisplay_mode - https://github.com/LineageOS/android_hardware_lineage_interfaces/commit/7aa2b1f609e0262fc7bd03b627e243874949b5d0#diff-104204498949a15a075e49382be2371aR32",
+      "parentUuid": "e9fa4275_3a917e1a",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 71
+      },
+      "revId": "5ebc0dc6921573400552707f48a7c939fae1e7a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
