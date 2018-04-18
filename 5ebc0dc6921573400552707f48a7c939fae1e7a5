@@ -46,6 +46,30 @@
       "revId": "5ebc0dc6921573400552707f48a7c939fae1e7a5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2f804f22_e861a8d0",
+        "filename": "qcom/common/hal_livedisplay_default.te",
+        "patchSetId": 7
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2018-04-18T04:51:59Z",
+      "side": 1,
+      "message": "Oh, we\u0027re using this directory as a backing store for settings :/",
+      "parentUuid": "7e65af90_207fd230",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 71
+      },
+      "revId": "5ebc0dc6921573400552707f48a7c939fae1e7a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
