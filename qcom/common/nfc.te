@@ -1,0 +1,3 @@
+full_treble_only(`
+    allow nfc vendor_file:file rx_file_perms;
+')
