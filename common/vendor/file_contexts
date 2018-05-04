@@ -2,6 +2,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.0-service u:object_r:hal_fingerprint_default_exec:s0
 
 # LiveDisplay HAL
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@1\.0-service-legacymm u:object_r:hal_livedisplay_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@1\.0-service-sdm u:object_r:hal_livedisplay_default_exec:s0
 
 # Vibrator HAL
