@@ -5,6 +5,7 @@ recovery_only(`
 get_prop(recovery, sf_lcd_density_prop)
 r_dir_file(recovery, pstorefs)
 unix_socket_connect(recovery, vold, vold)
+allow recovery system_file:dir mounton;
 
 # Secure adb (setup_adbd)
 allow adbd adb_keys_file:dir search;
