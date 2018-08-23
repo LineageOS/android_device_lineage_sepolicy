@@ -14,10 +14,9 @@ allow snap_app mediaserver_service:service_manager find;
 allow snap_app mediametrics_service:service_manager find;
 allow snap_app nfc_service:service_manager find;
 allow snap_app surfaceflinger_service:service_manager find;
-
 allow snap_app hidl_token_hwservice:hwservice_manager find;
 
-# Allow to read and execute libjni_*.so
+# Allow to read and execute camera app modules
 allow snap_app vendor_file:file { rx_file_perms };
 
 # Execute libraries from RenderScript cache
