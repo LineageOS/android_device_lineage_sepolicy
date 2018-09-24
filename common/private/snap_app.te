@@ -31,3 +31,6 @@ allow snap_app self:process ptrace;
 
 # Read and write system app data files passed over Binder.
 allow snap_app system_app_data_file:file { read write getattr };
+
+# Allow Snap to write to public storage like external sdcard
+allow snap_app sdcard_posix:file { create rw_file_perms };
