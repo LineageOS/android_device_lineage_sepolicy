@@ -1,0 +1,2 @@
+allow init sysfs:file { w_file_perms setattr };
+allow init sysfs_dm:file { w_file_perms setattr };
