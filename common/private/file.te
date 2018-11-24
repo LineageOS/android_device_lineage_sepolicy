@@ -1,1 +1,2 @@
 type sysfs_io_sched_tuneable, fs_type, sysfs_type;
+type sysfs_livedisplay_tuneable, fs_type, sysfs_type;
