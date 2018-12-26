@@ -1,0 +1,2 @@
+# Read vendor camera props
+get_prop(snap_app, vendor_camera_prop)
