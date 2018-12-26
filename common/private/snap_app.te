@@ -29,3 +29,6 @@ allow snap_app self:process ptrace;
 
 # Read and write system app data files passed over Binder.
 allow snap_app system_app_data_file:file { read write getattr };
+
+# Read vendor camera props
+get_prop(snap_app, vendor_camera_prop)
