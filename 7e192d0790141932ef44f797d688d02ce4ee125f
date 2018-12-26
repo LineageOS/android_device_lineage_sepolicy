@@ -16,6 +16,24 @@
       "revId": "7e192d0790141932ef44f797d688d02ce4ee125f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f88ca482_c9a87298",
+        "filename": "common/private/init.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2018-12-26T19:18:09Z",
+      "side": 1,
+      "message": "rebase derp. hold on.",
+      "parentUuid": "c8e36404_e83d055b",
+      "revId": "7e192d0790141932ef44f797d688d02ce4ee125f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
