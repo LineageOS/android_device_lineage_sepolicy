@@ -1,1 +1,5 @@
 ro.sf.lcd_density             u:object_r:sf_lcd_density_prop:s0
+
+#vendor-camera
+vendor.camera.aux.packagelist      u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.privapp.list u:object_r:vendor_camera_prop:s0
