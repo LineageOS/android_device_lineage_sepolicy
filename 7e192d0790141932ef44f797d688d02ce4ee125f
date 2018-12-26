@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c8e36404_e83d055b",
+        "filename": "common/private/init.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 12847
+      },
+      "writtenOn": "2018-12-26T19:15:45Z",
+      "side": 1,
+      "message": "Where is sysfs_livedisplay_tuneable defined? I get \"unknown type\" if I use the last patch set:\ningo@adler /usr/local/src/los16 $ grep -r sysfs_livedisplay_tuneable $(find * -type d -name sepolicy|grep -v ^out)\ningo@adler /usr/local/src/los16 $",
+      "revId": "7e192d0790141932ef44f797d688d02ce4ee125f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
