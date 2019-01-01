@@ -16,6 +16,24 @@
       "revId": "c102f9b07ca5aab3705208421c9831c166118e82",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5a4ddd49_1187e4b3",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-01-01T17:45:27Z",
+      "side": 1,
+      "message": "I wondered the same. Assumed it was done that way to not be so broad.",
+      "parentUuid": "2b6056cc_b6288289",
+      "revId": "c102f9b07ca5aab3705208421c9831c166118e82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
