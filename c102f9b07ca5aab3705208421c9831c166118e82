@@ -52,6 +52,24 @@
       "revId": "c102f9b07ca5aab3705208421c9831c166118e82",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e565ee4e_eb79d162",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2019-01-01T18:08:11Z",
+      "side": 1,
+      "message": "What about we just drop all current update_engine rules and create a custom permissive selinux domain for backuptool (obviously, we\u0027d need to allow type transition to it) and setexeccon() to it before executing backuptool (and setexeccon back to NULL after it\u0027s done executing)? I think that\u0027d be better than just allowing more and more random stuff to entire update_engine domain.",
+      "parentUuid": "52a8ee45_2e196aa6",
+      "revId": "c102f9b07ca5aab3705208421c9831c166118e82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
