@@ -1,1 +1,3 @@
 ro.sf.lcd_density             u:object_r:sf_lcd_density_prop:s0
+vendor.camera.aux.packageblacklist u:object_r:exported3_default_prop:s0 exact string
+vendor.camera.aux.packagelist u:object_r:exported3_default_prop:s0 exact string
