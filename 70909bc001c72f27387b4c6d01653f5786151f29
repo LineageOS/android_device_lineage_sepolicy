@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b04102f_92de3faf",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-01-03T21:54:39Z",
+      "side": 1,
+      "message": "probably some are needed, or maybe none",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 79
+      },
+      "revId": "70909bc001c72f27387b4c6d01653f5786151f29",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6e117a29_9a942a89",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-01-03T21:54:39Z",
+      "side": 1,
+      "message": "probably not needed anymore",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 63
+      },
+      "revId": "70909bc001c72f27387b4c6d01653f5786151f29",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
