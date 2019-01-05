@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f26e9abc_d8f7773c",
+        "filename": "common/private/update_engine.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-01-05T08:54:11Z",
+      "side": 1,
+      "message": "now that I think about it this isn\u0027t needed, we\u0027re in backuptool domain when we execute the script",
+      "revId": "3af5fd69e393fd60400a44e5833adee047c04634",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
