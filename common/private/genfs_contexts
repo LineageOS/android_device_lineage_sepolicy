@@ -10,3 +10,5 @@ genfscon sysfs /devices/virtual/graphics/fb0/sre u:object_r:sysfs_livedisplay_tu
 genfscon sysfs /devices/virtual/graphics/fb0/reading_mode u:object_r:sysfs_livedisplay_tuneable:s0
 
 genfscon sysfs /devices/virtual/timed_output/vibrator u:object_r:sysfs_vibrator:s0
+
+genfscon proc /sys/kernel/deny_new_usb u:object_r:proc_deny_new_usb:s0
