@@ -1,0 +1,2 @@
+# Trust HAL (default node)
+genfscon proc        /sys/kernel/deny_new_usb        u:object_r:hal_lineage_trust_file:s0
