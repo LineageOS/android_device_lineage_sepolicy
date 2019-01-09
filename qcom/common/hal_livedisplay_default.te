@@ -7,5 +7,8 @@ binder_call(hal_livedisplay_default, hal_graphics_composer_default)
 allow hal_livedisplay_default display_vendor_data_file:dir rw_dir_perms;
 allow hal_livedisplay_default display_vendor_data_file:file create_file_perms;
 
+# Allow LiveDisplay to access vendor display property
+get_prop(hal_livedisplay_default, vendor_display_prop)
+
 # Allow LiveDisplay to access pps socket
 unix_socket_connect(hal_livedisplay_default, pps, mm-pp-daemon)
