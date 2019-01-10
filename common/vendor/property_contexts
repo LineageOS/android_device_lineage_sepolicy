@@ -1,3 +1,4 @@
 #vendor-camera
+vendor.camera.aux.packageblacklist u:object_r:vendor_camera_prop:s0
 vendor.camera.aux.packagelist      u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.privapp.list u:object_r:vendor_camera_prop:s0
