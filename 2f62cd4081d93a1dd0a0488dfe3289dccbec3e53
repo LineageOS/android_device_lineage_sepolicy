@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ccea30bc_8810cb60",
+        "filename": "common/public/property.te",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 20155
+      },
+      "writtenOn": "2019-01-12T02:21:12Z",
+      "side": 1,
+      "message": "property.te already exist\nhttps://github.com/LineageOS/android_device_lineage_sepolicy/blob/lineage-16.0/common/public/property.te#L1",
+      "revId": "2f62cd4081d93a1dd0a0488dfe3289dccbec3e53",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
