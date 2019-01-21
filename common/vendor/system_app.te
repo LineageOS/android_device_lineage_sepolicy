@@ -1,3 +1,5 @@
+allow system_app hal_lineage_livedisplay_hwservice:hwservice_manager find;
+
 binder_call(system_app, hal_lineage_touch_default)
 
 allow system_app hal_lineage_touch_hwservice:hwservice_manager find;
