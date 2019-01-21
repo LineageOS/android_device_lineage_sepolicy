@@ -10,3 +10,6 @@ get_prop(hal_livedisplay_default, hwservicemanager_prop)
 
 # Add vendor.lineage.livedisplay::IColor service to hwservicemanager
 add_hwservice(hal_livedisplay_default, hal_lineage_livedisplay_hwservice)
+
+# Grant access over LiveDisplay tuneables
+allow hal_livedisplay_default sysfs_livedisplay_tuneable:file rw_file_perms;

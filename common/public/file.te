@@ -1,0 +1,2 @@
+# LiveDisplay tunables
+type sysfs_livedisplay_tuneable, fs_type, sysfs_type;
