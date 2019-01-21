@@ -1,3 +1,6 @@
-vendor.lineage.livedisplay::IColor       u:object_r:hal_lineage_livedisplay_hwservice:s0
+vendor.lineage.livedisplay::IAdaptiveBacklight       u:object_r:hal_lineage_livedisplay_hwservice:s0
+vendor.lineage.livedisplay::IColorBalance            u:object_r:hal_lineage_livedisplay_hwservice:s0
+vendor.lineage.livedisplay::IDisplayModes            u:object_r:hal_lineage_livedisplay_hwservice:s0
+vendor.lineage.livedisplay::IPictureAdjustment       u:object_r:hal_lineage_livedisplay_hwservice:s0
 
 vendor.lineage.power::ILineagePower      u:object_r:hal_lineage_power_hwservice:s0
