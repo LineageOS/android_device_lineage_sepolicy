@@ -3,3 +3,6 @@ binder_call(hal_lineage_livedisplay_client, hal_lineage_livedisplay_server)
 
 add_hwservice(hal_lineage_livedisplay_server, hal_lineage_livedisplay_hwservice)
 allow hal_lineage_livedisplay_client hal_lineage_livedisplay_hwservice:hwservice_manager find;
+
+# Grant access over LiveDisplay tuneables
+allow hal_lineage_livedisplay sysfs_livedisplay_tuneable:file rw_file_perms;
