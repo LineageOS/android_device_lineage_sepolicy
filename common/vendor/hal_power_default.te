@@ -1,1 +1,0 @@
-allow hal_power_default hal_lineage_power_hwservice:hwservice_manager { add find };
