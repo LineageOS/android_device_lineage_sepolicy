@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "269a2841_6abd1595",
+        "filename": "common/vendor/hal_livedisplay_default.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-01T10:02:32Z",
+      "side": 0,
+      "message": "It may not be easy to notice because the file has been renamed and git shows that file has been deleted, but this is one of the rules that disappears because it is now implicit once we define the lineage_livedisplay hal attribute.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 37
+      },
+      "revId": "80e31052a259c6a1e13efe9ee8e779ea660927c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ee91bc29_0c612f91",
+        "filename": "common/vendor/hal_livedisplay_default.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-01T10:02:32Z",
+      "side": 0,
+      "message": "Same goes with this rule.",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 56
+      },
+      "revId": "80e31052a259c6a1e13efe9ee8e779ea660927c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
