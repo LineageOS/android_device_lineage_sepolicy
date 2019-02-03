@@ -1,6 +1,8 @@
 app_domain(snap_app)
 net_domain(snap_app)
 
+typeattribute snap_app system_executes_vendor_violators;
+
 # Access standard system services
 allow snap_app app_api_service:service_manager find;
 allow snap_app audioserver_service:service_manager find;
