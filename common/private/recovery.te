@@ -3,7 +3,6 @@ recovery_only(`
 # XXX
 ##allow init rootfs:file write;
 r_dir_file(recovery, pstorefs)
-allow recovery system_file:dir mounton;
 
 # Secure adb (setup_adbd)
 allow adbd adb_keys_file:dir search;
