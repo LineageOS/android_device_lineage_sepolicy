@@ -1,6 +1,7 @@
 genfscon fuseblk / u:object_r:vfat:s0
 genfscon sdfat / u:object_r:exfat:s0
 
+genfscon sysfs /devices/virtual/graphics/fb0/acl u:object_r:sysfs_livedisplay_tuneable:s0
 genfscon sysfs /devices/virtual/graphics/fb0/aco u:object_r:sysfs_livedisplay_tuneable:s0
 genfscon sysfs /devices/virtual/graphics/fb0/cabc u:object_r:sysfs_livedisplay_tuneable:s0
 genfscon sysfs /devices/virtual/graphics/fb0/color_enhance u:object_r:sysfs_livedisplay_tuneable:s0
