@@ -1,3 +1,2 @@
-type adbtcp_prop, property_type;
 type lineage_recovery_prop, property_type;
 type userinit_prop, property_type;
