@@ -1,0 +1,11 @@
+type hal_lineage_livedisplay_sysfs, coredomain, domain;
+hal_server_domain(hal_lineage_livedisplay_sysfs, hal_lineage_livedisplay)
+
+type hal_lineage_livedisplay_sysfs_exec, exec_type, file_type;
+init_daemon_domain(hal_lineage_livedisplay_sysfs)
+
+# Talk to the binder device node
+allow hal_lineage_touch_default binder_device:chr_file rw_file_perms;
+
+# Grant access over LiveDisplay tuneables
+allow hal_lineage_livedisplay_sysfs sysfs_livedisplay_tuneable:file rw_file_perms;
