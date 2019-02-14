@@ -2,4 +2,4 @@
 allow platform_app nfc_service:service_manager find;
 
 # Allow LiveDisplay HAL service to be found
-allow platform_app hal_lineage_livedisplay_hwservice:hwservice_manager find;
+hal_client_domain(platform_app, hal_lineage_livedisplay)
