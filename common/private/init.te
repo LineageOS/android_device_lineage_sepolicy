@@ -3,5 +3,4 @@ allow init sysfs_dm:file relabelfrom;
 
 allow init {
     sysfs_io_sched_tuneable
-    sysfs_livedisplay_tuneable
 }:file { setattr w_file_perms };
