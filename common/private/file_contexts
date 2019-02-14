@@ -22,6 +22,9 @@
 # Recovery
 /sbin/minivold                          u:object_r:vold_exec:s0
 
+# Superuser's control sockets
+/dev/socket/su-daemon(/.*)?   u:object_r:superuser_device:s0
+
 # Sysinit
 /system/bin/sysinit                     u:object_r:sysinit_exec:s0
 
