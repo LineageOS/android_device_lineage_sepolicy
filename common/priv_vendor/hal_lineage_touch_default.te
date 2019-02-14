@@ -1,0 +1,8 @@
+type hal_lineage_touch_default, coredomain, domain;
+hal_server_domain(hal_lineage_touch_default, hal_lineage_touch)
+
+type hal_lineage_touch_default_exec, exec_type, file_type;
+init_daemon_domain(hal_lineage_touch_default)
+
+# Talk to the binder device node
+allow hal_lineage_touch_default binder_device:chr_file rw_file_perms;
