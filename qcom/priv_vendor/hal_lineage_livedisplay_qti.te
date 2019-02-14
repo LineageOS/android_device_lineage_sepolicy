@@ -1,0 +1,12 @@
+type hal_lineage_livedisplay_qti, coredomain, domain;
+hal_server_domain(hal_lineage_livedisplay_qti, hal_lineage_livedisplay)
+
+type hal_lineage_livedisplay_qti_exec, exec_type, file_type;
+init_daemon_domain(hal_lineage_livedisplay_qti)
+
+# Talk to the binder device node
+allow hal_lineage_livedisplay_qti binder_device:chr_file rw_file_perms;
+
+# Allow LiveDisplay to store files under /data/display and access them
+allow hal_lineage_livedisplay_qti display_data_file:dir rw_dir_perms;
+allow hal_lineage_livedisplay_qti display_data_file:file create_file_perms;
