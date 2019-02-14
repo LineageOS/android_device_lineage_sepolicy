@@ -1,2 +1,0 @@
-# Superuser's control sockets
-/dev/socket/su-daemon(/.*)?   u:object_r:superuser_device:s0
