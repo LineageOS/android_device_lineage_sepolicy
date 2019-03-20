@@ -34,4 +34,7 @@ allow recovery system_file:dir mounton;
 
 # Volume manager
 allow recovery self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
+
+# Set time
+allow recovery self:capability sys_time;
 ')
