@@ -34,4 +34,8 @@ allow recovery system_file:dir mounton;
 
 # Fix reboot?
 allow recovery self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
+
+# Reading and setting time
+r_dir_file(recovery, time_data_file)
+allow recovery self:capability sys_time;
 ')
