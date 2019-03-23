@@ -7,3 +7,6 @@ allow system_server sysfs_livedisplay_tuneable:file rw_file_perms;
 hal_client_domain(system_server, hal_lineage_livedisplay)
 hal_client_domain(system_server, hal_lineage_touch)
 hal_client_domain(system_server, hal_lineage_trust)
+
+# OTA with encrypted f2fs
+allow system_server ota_package_file:dir getattr;
