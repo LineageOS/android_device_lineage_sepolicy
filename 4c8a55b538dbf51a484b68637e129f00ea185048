@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "44b14232_616d0af3",
+        "filename": "common/private/system_server.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2019-04-13T17:41:58Z",
+      "side": 1,
+      "message": "I\u0027m hitting this on g2, but it seems harmless, as the installation goes through",
+      "revId": "4c8a55b538dbf51a484b68637e129f00ea185048",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
