@@ -16,6 +16,24 @@
       "revId": "4c8a55b538dbf51a484b68637e129f00ea185048",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "082394b6_455e1468",
+        "filename": "common/private/system_server.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 12847
+      },
+      "writtenOn": "2019-04-14T13:05:35Z",
+      "side": 1,
+      "message": "Do you use encrypted f2fs with secured boot?",
+      "parentUuid": "44b14232_616d0af3",
+      "revId": "4c8a55b538dbf51a484b68637e129f00ea185048",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
