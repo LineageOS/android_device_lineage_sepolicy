@@ -7,4 +7,5 @@ neverallow { domain -init } sysinit:process transition;
 
 userdebug_or_eng(`
     permissive sysinit;
+    dontaudit sysinit file_type:dir_file_class_set *;
 ')
