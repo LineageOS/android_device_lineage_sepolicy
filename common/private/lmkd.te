@@ -1,1 +1,4 @@
 allow lmkd proc_vmstat:file r_file_perms;
+
+# Read /proc/lowmemorykiller
+allow lmkd proc_lowmemorykiller:file r_file_perms;
