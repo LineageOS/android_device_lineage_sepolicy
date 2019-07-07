@@ -1,3 +1,4 @@
+vendor.lineage.camera.motor::ICameraMotor            u:object_r:hal_lineage_camera_motor_hwservice:s0
 vendor.lineage.livedisplay::IAdaptiveBacklight       u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.livedisplay::IAutoContrast            u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.livedisplay::IColorBalance            u:object_r:hal_lineage_livedisplay_hwservice:s0
