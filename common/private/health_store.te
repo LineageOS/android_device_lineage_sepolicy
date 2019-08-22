@@ -1,0 +1,9 @@
+type health_store_data, file_type, data_file_type, core_data_file_type;
+
+# Block everyone but the HealthStore service from r/w access
+neverallow { domain -system_server -init -vendor_init } health_store_data:file { rw_file_perms };
+neverallow { domain -system_server -init -vendor_init } health_store_data:dir { search rw_file_perms };
+
+# Allow the system service to find the directory
+allow system_server health_store_data:dir { add_name create rw_file_perms remove_name search };
+allow system_server health_store_data:file { create rw_file_perms lock setattr unlink };
