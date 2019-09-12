@@ -1,2 +1,1 @@
-type lineage_recovery_prop, property_type;
 type userinit_prop, property_type;
