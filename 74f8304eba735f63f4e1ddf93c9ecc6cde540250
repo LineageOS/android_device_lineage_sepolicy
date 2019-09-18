@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "257e5f7b_5728ad6b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2019-09-18T13:27:05Z",
+      "side": 1,
+      "message": "fsck.exfat?",
+      "revId": "74f8304eba735f63f4e1ddf93c9ecc6cde540250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
