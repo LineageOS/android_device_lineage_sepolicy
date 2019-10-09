@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6d4e87ed_d2362a01",
+        "filename": "qcom/vendor/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2019-10-09T19:06:42Z",
+      "side": 1,
+      "message": "What about \u0027vendor.qti.hardware.cryptfshw@1.0-service-qti\u0027?",
+      "revId": "a90f92d61db7ee58ab11286dd9e38df1fb1f1c11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
