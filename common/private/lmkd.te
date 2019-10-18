@@ -1,4 +1,14 @@
+## Open and write to /proc/PID/oom_score_adj and /proc/PID/timerslack_ns
+## TODO: maybe scope this down?
+r_dir_file(lmkd, domain)
+allow lmkd domain:file write;
+
+# setsched and send kill signals to any registered process
+allow lmkd domain:process { setsched sigkill };
+
 allow lmkd proc_vmstat:file r_file_perms;
 
 # Read /proc/lowmemorykiller
 allow lmkd proc_lowmemorykiller:file r_file_perms;
+
+neverallow lmkd self:global_capability_class_set sys_ptrace;

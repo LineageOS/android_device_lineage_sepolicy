@@ -4,3 +4,6 @@ allow init sysfs_dm:file relabelfrom;
 allow init {
     sysfs_io_sched_tuneable
 }:file { setattr w_file_perms };
+
+# allow init to establish connection and communicate with lmkd
+unix_socket_connect(init, lmkd, lmkd)
