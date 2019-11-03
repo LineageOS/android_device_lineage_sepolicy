@@ -1,0 +1,1 @@
+allow adbd adbroot:binder call;
