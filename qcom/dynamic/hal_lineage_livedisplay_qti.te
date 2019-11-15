@@ -1,7 +1,20 @@
+type hal_lineage_livedisplay_qti, coredomain, domain;
+hal_server_domain(hal_lineage_livedisplay_qti, hal_lineage_livedisplay)
+
+type hal_lineage_livedisplay_qti_exec, exec_type, system_file_type, file_type;
+init_daemon_domain(hal_lineage_livedisplay_qti)
+
 # Do not use add_service() as hal_graphics_composer_default may be the provider as well
 allow hal_lineage_livedisplay_qti qdisplay_service:service_manager find;
 
+type hal_display_color_hwservice, hwservice_manager_type;
+allow hal_lineage_livedisplay_qti hal_display_color_hwservice:hwservice_manager find;
+
+type hal_display_color_default, domain;
+binder_call(hal_lineage_livedisplay_qti, hal_display_color_default)
+
 binder_call(hal_lineage_livedisplay_qti, hal_graphics_composer_default)
+binder_use(hal_lineage_livedisplay_qti)
 
 # Allow LiveDisplay to access vendor display property
 get_prop(hal_lineage_livedisplay_qti, vendor_display_prop)
