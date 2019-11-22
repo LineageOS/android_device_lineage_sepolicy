@@ -1,2 +1,2 @@
-allow adbd adbroot:binder call;
-allow adbd adbroot_service:service_manager find;
+binder_call(adbd, system_server)
+allow adbd lineage_adbroot_service:service_manager find;
