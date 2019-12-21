@@ -7,5 +7,7 @@ binder_use(adbroot)
 binder_service(adbroot)
 add_service(adbroot, adbroot_service)
 
+dontaudit adbroot self:capability dac_override;
+
 allow adbroot adbroot_data_file:dir rw_dir_perms;
 allow adbroot adbroot_data_file:file create_file_perms;
