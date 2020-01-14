@@ -1,4 +1,5 @@
-adb.network.port              u:object_r:system_prop:s0
-lineage.service.adb.root      u:object_r:system_prop:s0
-lineage.userinit.active       u:object_r:userinit_prop:s0
-recovery.perf.mode            u:object_r:lineage_recovery_prop:s0
+adb.network.port                       u:object_r:system_prop:s0
+lineage.service.adb.root               u:object_r:system_prop:s0
+lineage.userinit.active                u:object_r:userinit_prop:s0
+recovery.perf.mode                     u:object_r:lineage_recovery_prop:s0
+ro.telephony.use_old_mnc_mcc_format    u:object_r:exported3_default_prop:s0
