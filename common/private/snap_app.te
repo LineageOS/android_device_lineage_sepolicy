@@ -38,3 +38,6 @@ allow snap_app system_app_data_file:file { read write getattr };
 
 # Allow to read camera properties
 get_prop(snap_app, camera_prop)
+
+# Allow to interact with gpuservice
+binder_call(snap_app, gpuservice)
