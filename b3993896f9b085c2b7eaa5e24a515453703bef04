@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b9fc0fb7_c93c43ba",
+        "filename": "common/private/property.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16908
+      },
+      "writtenOn": "2020-02-04T07:12:04Z",
+      "side": 1,
+      "message": "device/qcom/sepolicy-legacy/common/property.te:48:ERROR \u0027Duplicate declaration of type\u0027 at token \u0027;\u0027 on line 72555:\ntype msm_irqbl_sdm630_prop, property_type;\ntype camera_prop, property_type;\ncheckpolicy:  error(s) encountered while parsing configuration",
+      "revId": "b3993896f9b085c2b7eaa5e24a515453703bef04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
