@@ -38,3 +38,7 @@ allow snap_app system_app_data_file:file { read write getattr };
 
 # Binder call with gpuservice
 binder_call(snap_app, gpuservice)
+
+# Read persist_camera_prop
+get_prop(snap_app, persist_camera_prop)
+
