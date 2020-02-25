@@ -24,3 +24,8 @@ BOARD_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/dynamic \
     device/lineage/sepolicy/common/vendor
 endif
+
+ifeq ($(TARGET_HAS_LEGACY_CAMERA_HAL1), true)
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/lineage/sepolicy/legacy-common/public/legacy-camera-hal1
+endif
