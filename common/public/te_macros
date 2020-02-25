@@ -1,0 +1,5 @@
+#####################################
+# Legacy camera HAL1
+# SELinux rules that are only applicable to devices with legacy camera HAL1.
+#
+define(`legacy_camera_hal1_only', ifelse(target_has_legacy_camera_hal1, `true', $1, ))
