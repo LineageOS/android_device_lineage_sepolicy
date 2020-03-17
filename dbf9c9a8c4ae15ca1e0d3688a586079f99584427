@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e292b9bb_c4617a69",
+        "filename": "exynos/system/hal_lineage_livedisplay_exynos.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-03-17T17:04:57Z",
+      "side": 1,
+      "message": "To be fair, the system variant of this HAL shouldn\u0027t write to /data/vendor/",
+      "range": {
+        "startLine": 14,
+        "startChar": 41,
+        "endLine": 14,
+        "endChar": 61
+      },
+      "revId": "dbf9c9a8c4ae15ca1e0d3688a586079f99584427",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
