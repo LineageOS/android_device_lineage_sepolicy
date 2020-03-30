@@ -9,6 +9,14 @@ TARGET_USES_PREBUILT_VENDOR_SEPOLICY ?= true
 endif
 endif
 
+ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
+ifeq ($(BOARD_USES_MTK_HARDWARE),true)
+BOARD_SEPOLICY_M4DEFS += board_excludes_mtk_vendor_sepolicy=true
+else
+BOARD_SEPOLICY_M4DEFS += board_excludes_mtk_vendor_sepolicy=false
+endif
+endif
+
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
     device/lineage/sepolicy/common/public
 
