@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e96bddc6_605e106f",
+        "filename": "common/private/genfs_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2020-03-30T11:12:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef8d0892_dd89e08f",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 51
+      },
+      "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c7a2a0a3_562777db",
         "filename": "common/sepolicy.mk",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "15f21ec9_2635716f",
+        "filename": "common/sepolicy.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2020-03-30T11:12:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c7a2a0a3_562777db",
+      "range": {
+        "startLine": 13,
+        "startChar": 8,
+        "endLine": 13,
+        "endChar": 31
+      },
+      "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "0c771b42_519d8e06",
+        "filename": "common/sepolicy.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2020-03-30T11:12:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fef19291_92fc56c0",
+      "range": {
+        "startLine": 14,
+        "startChar": 25,
+        "endLine": 14,
+        "endChar": 59
+      },
+      "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2a1dbdf4_764fb74d",
         "filename": "common/sepolicy.mk",
         "patchSetId": 2
@@ -91,6 +163,30 @@
       "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "577f7202_ec68c9de",
+        "filename": "common/sepolicy.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2020-03-30T11:12:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a1dbdf4_764fb74d",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 5
+      },
+      "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
