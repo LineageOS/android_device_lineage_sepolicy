@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ef8d0892_dd89e08f",
+        "filename": "common/private/genfs_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-30T10:39:46Z",
+      "side": 1,
+      "message": "ifelse(board_excludes_fuseblk_sepolicy, `true\u0027, ,\ngenfscon fuseblk / u:object_r:vfat:s0\n)",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 51
+      },
+      "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c7a2a0a3_562777db",
+        "filename": "common/sepolicy.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-30T10:39:46Z",
+      "side": 1,
+      "message": "make this non mtk specific, some qcom do it as well",
+      "range": {
+        "startLine": 13,
+        "startChar": 8,
+        "endLine": 13,
+        "endChar": 31
+      },
+      "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fef19291_92fc56c0",
+        "filename": "common/sepolicy.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-30T10:39:46Z",
+      "side": 1,
+      "message": "board_excludes_fuseblk_sepolicy",
+      "range": {
+        "startLine": 14,
+        "startChar": 25,
+        "endLine": 14,
+        "endChar": 59
+      },
+      "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a1dbdf4_764fb74d",
+        "filename": "common/sepolicy.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-30T10:39:46Z",
+      "side": 1,
+      "message": "this else case shouldn\u0027t be needed",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 5
+      },
+      "revId": "20ce87c7b71e1c5963aa9de73ac63e6b5058b442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
