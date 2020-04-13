@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5d1d2e37_2cb2f8b1",
+        "filename": "common/private/recovery.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2020-04-13T12:41:59Z",
+      "side": 1,
+      "message": "avc:  denied  { read } for  pid\u003d215 comm\u003d\"recovery\" name\u003d\"vendor\" dev\u003d\"sysfs\" ino\u003d20852 scontext\u003du:r:recovery:s0 tcontext\u003du:object_r:sysfs:s0 tclass\u003dfile permissive\u003d0",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 31
+      },
+      "revId": "c0ba5ec23650796da56bf62b45043b2cdc4047df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
