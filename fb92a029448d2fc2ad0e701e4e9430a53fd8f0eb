@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a6850243_936901f1",
+        "filename": "common/private/recovery.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2020-04-13T12:59:07Z",
+      "side": 1,
+      "message": "somehow i\u0027m still getting\navc:  denied  { ioctl } for  pid\u003d214 comm\u003d\"recovery\" path\u003d\"/dev/block/volmgr/disk:8_0\" dev\u003d\"tmpfs\" ino\u003d6635 ioctlcmd\u003d1260 scontext\u003du:r:recovery:s0 tcontext\u003du:object_r:block_device:s0 tclass\u003dblk_file permissive\u003d0\n\neven though create_file_perms expands to ioctl.\nalso expliciting ioctl doesn\u0027t work either.\ni don\u0027t understand.",
+      "range": {
+        "startLine": 8,
+        "startChar": 37,
+        "endLine": 8,
+        "endChar": 54
+      },
+      "revId": "fb92a029448d2fc2ad0e701e4e9430a53fd8f0eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
