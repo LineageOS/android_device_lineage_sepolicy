@@ -10,6 +10,7 @@ vendor.lineage.livedisplay::IPictureAdjustment                          u:object
 vendor.lineage.livedisplay::IReadingEnhancement                         u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.livedisplay::ISunlightEnhancement                        u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.power::ILineagePower                                     u:object_r:hal_power_hwservice:s0
+vendor.lineage.powershare::IPowerShare                                  u:object_r:hal_lineage_powershare_hwservice:s0
 vendor.lineage.touch::IGloveMode                                        u:object_r:hal_lineage_touch_hwservice:s0
 vendor.lineage.touch::IKeyDisabler                                      u:object_r:hal_lineage_touch_hwservice:s0
 vendor.lineage.touch::IStylusMode                                       u:object_r:hal_lineage_touch_hwservice:s0
