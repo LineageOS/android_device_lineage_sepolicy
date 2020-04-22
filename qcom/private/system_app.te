@@ -1,0 +1,2 @@
+# FM
+set_prop(system_app, fm_init_prop)
