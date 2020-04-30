@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "04058659_733d9d6c",
+        "filename": "qcom/vendor/hal_lineage_livedisplay_qti.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-04-30T12:45:29Z",
+      "side": 1,
+      "message": "Use this macro instead: https://github.com/LineageOS/android_system_sepolicy/blob/lineage-17.1/public/te_macros#L287",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 76
+      },
+      "revId": "a20e6ebabeaa943ccb22aa209f5144dd3154b609",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
