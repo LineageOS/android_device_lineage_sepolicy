@@ -1,3 +1,2 @@
-# Aux camera {black,white}list props readable to everything
+# Aux camera blacklist prop readable to everything
 vendor.camera.aux.packageblacklist     u:object_r:exported_default_prop:s0
-vendor.camera.aux.packagelist          u:object_r:exported_default_prop:s0
