@@ -4,6 +4,10 @@ hal_server_domain(hal_lineage_livedisplay_exynos, hal_lineage_livedisplay)
 type hal_lineage_livedisplay_exynos_exec, exec_type, system_file_type, file_type;
 init_daemon_domain(hal_lineage_livedisplay_exynos)
 
+# Allow LiveDisplay to store files under /data/misc/display and access them
+allow hal_lineage_livedisplay_exynos display_misc_file:dir rw_dir_perms;
+allow hal_lineage_livedisplay_exynos display_misc_file:file create_file_perms;
+
 type hal_display_color_hwservice, hwservice_manager_type;
 allow hal_lineage_livedisplay_exynos hal_display_color_hwservice:hwservice_manager find;
 
