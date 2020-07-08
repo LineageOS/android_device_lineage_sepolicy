@@ -1,2 +1,0 @@
-# Read and execute IOCTLs on OTA zip file at /data/ota_package/.
-allow uncrypt ota_package_file:file w_file_perms;
