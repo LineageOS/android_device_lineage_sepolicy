@@ -1,0 +1,2 @@
+# Allow copying slot partitions
+allow update_engine mdtp_device:blk_file { open read write };

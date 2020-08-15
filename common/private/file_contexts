@@ -24,3 +24,6 @@
 
 # Bash
 /system/xbin/bash          u:object_r:shell_exec:s0
+
+# root for updater target filesystem
+/mnt/updater(/.*)?          u:object_r:mnt_updater_file:s0

@@ -8,3 +8,18 @@ allow update_engine labeledfs:filesystem { mount unmount };
 # Allow transition to backuptool domain
 allow update_engine self:process setexec;
 domain_trans(update_engine, otapreopt_chroot_exec, backuptool)
+
+# file based updater: block operations for slot copy
+allow update_engine block_device:dir r_dir_perms;
+allow update_engine block_device:blk_file { open read write };
+
+# file based updater: mount filesystems
+allow update_engine mnt_updater_file:dir { mounton };
+allow update_engine mnt_updater_file:filesystem { relabelfrom relabelto };
+allow update_engine mnt_updater_file:filesystem { mount unmount };
+allow mnt_updater_file mnt_updater_file:filesystem { associate };
+
+# file based updater: full access to updater mounts
+allow update_engine mnt_updater_file:dir { create_dir_perms create_file_perms };
+allow update_engine mnt_updater_file:file { create_file_perms };
+allow update_engine mnt_updater_file:lnk_file { create_file_perms };
