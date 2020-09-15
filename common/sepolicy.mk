@@ -16,13 +16,16 @@ endif
 endif
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/lineage/sepolicy/common/public-platform
+
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/public
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/private
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/dynamic \
     device/lineage/sepolicy/common/system
 else
