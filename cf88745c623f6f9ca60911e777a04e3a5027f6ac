@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fae74220_933b3478",
+        "filename": "common/public/file.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-09-17T09:24:45Z",
+      "side": 1,
+      "message": "I guess you can shorten this one xD",
+      "range": {
+        "startLine": 1,
+        "startChar": 5,
+        "endLine": 1,
+        "endChar": 119
+      },
+      "revId": "cf88745c623f6f9ca60911e777a04e3a5027f6ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
