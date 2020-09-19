@@ -17,9 +17,19 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/lineage/sepolicy/qcom/dynamic \
     device/lineage/sepolicy/qcom/system
 else
+ifeq (,$(filter sdm845 sdm710 sdm660 msm8937 msm8953, $(TARGET_BOARD_PLATFORM)))
 BOARD_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/qcom/dynamic \
-    device/lineage/sepolicy/qcom/vendor
+    device/lineage/sepolicy/qcom/dynamic/common \
+    device/lineage/sepolicy/qcom/dynamic/generic \
+    device/lineage/sepolicy/qcom/vendor/common \
+    device/lineage/sepolicy/qcom/vendor/generic
+else
+BOARD_SEPOLICY_DIRS += \
+    device/lineage/sepolicy/qcom/dynamic/common \
+    device/lineage/sepolicy/qcom/dynamic/legacy \
+    device/lineage/sepolicy/qcom/vendor/common \
+    device/lineage/sepolicy/qcom/vendor/legacy
+endif
 endif
 
 ifneq ($(filter msm8226 msm8610 msm8974 msm8909 msm8916 msm8952 msm8992 msm8994,$(TARGET_BOARD_PLATFORM)),)

@@ -1,0 +1,2 @@
+# Allow LiveDisplay to read files in vendor_sysfs_graphics
+r_dir_file(hal_lineage_livedisplay_sysfs, vendor_sysfs_graphics)
