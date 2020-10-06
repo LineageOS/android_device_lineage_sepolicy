@@ -1,5 +1,7 @@
 type updater_app, domain, coredomain;
 
+net_domain(updater_app)
+
 app_domain(updater_app)
 
 binder_call(updater_app, update_engine)
