@@ -1,0 +1,2 @@
+# Allow adb shell to read dmesg
+allow shell kernel:system { syslog_read };
