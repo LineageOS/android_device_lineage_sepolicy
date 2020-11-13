@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02f17e5d_64cfc51c",
+        "filename": "common/private/updater_app.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-11-13T21:31:03Z",
+      "side": 1,
+      "message": "never had to do service labeling like this, and am tired, very likely this is wrong.",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 56
+      },
+      "revId": "499565b0dcb0b3667bc13705bb336c4a4bf1bfb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
