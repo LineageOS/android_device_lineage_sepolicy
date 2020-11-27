@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "32d325b1_03dfc350",
+        "filename": "qcom/sepolicy.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-11-27T20:36:24Z",
+      "side": 1,
+      "message": "assuming this is supposed to include legacy, where is a-fam at? (8960/8064)",
+      "range": {
+        "startLine": 30,
+        "startChar": 16,
+        "endLine": 31,
+        "endChar": 26
+      },
+      "revId": "7936c51be96d5b4c953cd2ce92463c729eaacce8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
