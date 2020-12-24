@@ -1,0 +1,2 @@
+# LiveDisplay
+/system/bin/hw/lineage\.livedisplay@[0-9]\.[0-9]-service-mediatek    u:object_r:hal_lineage_livedisplay_mediatek_exec:s0
