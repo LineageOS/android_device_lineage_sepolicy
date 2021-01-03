@@ -13,6 +13,7 @@ vendor.lineage.power::ILineagePower                                     u:object
 vendor.lineage.powershare::IPowerShare                                  u:object_r:hal_lineage_powershare_hwservice:s0
 vendor.lineage.touch::IGloveMode                                        u:object_r:hal_lineage_touch_hwservice:s0
 vendor.lineage.touch::IKeyDisabler                                      u:object_r:hal_lineage_touch_hwservice:s0
+vendor.lineage.touch::IKeySwapper                                       u:object_r:hal_lineage_touch_hwservice:s0
 vendor.lineage.touch::IStylusMode                                       u:object_r:hal_lineage_touch_hwservice:s0
 vendor.lineage.touch::ITouchscreenGesture                               u:object_r:hal_lineage_touch_hwservice:s0
 vendor.lineage.trust::IUsbRestrict                                      u:object_r:hal_lineage_trust_hwservice:s0
