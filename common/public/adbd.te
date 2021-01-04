@@ -1,0 +1,1 @@
+allowxperm adbd shell:socket ioctl TIOCGPGRP;
