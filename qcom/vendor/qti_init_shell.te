@@ -1,0 +1,2 @@
+allow qti_init_shell sysfs_io_sched_tuneable:dir r_dir_perms;
+allow qti_init_shell sysfs_io_sched_tuneable:file w_file_perms;
