@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "90d1171d_a550bff0",
+        "filename": "common/dynamic/hwservice_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2021-03-07T14:05:00Z",
+      "side": 1,
+      "message": "This should be u:object_r:hal_health_hwservice:s0",
+      "range": {
+        "startLine": 1,
+        "startChar": 72,
+        "endLine": 1,
+        "endChar": 103
+      },
+      "revId": "d13d4fa2f9e7fe42af785b53491848b83f27d89b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
