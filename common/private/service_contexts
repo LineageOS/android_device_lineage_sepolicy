@@ -1,4 +1,5 @@
 lineageaudio                              u:object_r:lineage_audio_service:s0
+lineageglobalactions                      u:object_r:lineage_globalactions_service:s0
 lineagehardware                           u:object_r:lineage_hardware_service:s0
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
 lineageperformance                        u:object_r:lineage_performance_service:s0
