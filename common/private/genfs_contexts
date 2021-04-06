@@ -1,1 +1,5 @@
+<<<<<<< HEAD   (33bd69 common: Kill sysfs_io_sched_tuneable)
+=======
+
+>>>>>>> CHANGE (51bd96 lineage: Kill policy incompatibily with GSI for some OEMs)
 genfscon sysfs /devices/virtual/timed_output/vibrator u:object_r:sysfs_vibrator:s0
