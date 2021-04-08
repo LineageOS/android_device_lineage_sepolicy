@@ -33,3 +33,8 @@ endif
 
 # Selectively include legacy rules defined by the products
 -include device/lineage/sepolicy/legacy-common/sepolicy.mk
+
+ifeq ($(PRODUCT_IS_ATV), true)
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/lineage/sepolicy/atv/private
+endif
