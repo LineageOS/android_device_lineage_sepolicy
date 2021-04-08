@@ -1,0 +1,2 @@
+# netflix (and other L1 apps)
+allow untrusted_app hwc_prop:file read;
