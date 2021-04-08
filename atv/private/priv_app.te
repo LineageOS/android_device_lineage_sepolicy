@@ -1,0 +1,3 @@
+# tvsettings
+allow priv_app hwc_prop:file read;
+

@@ -1,0 +1,4 @@
+# tvsettings
+allow system_app hwc_prop:file read;
+allow system_app selinuxfs:file r_file_perms;
+
