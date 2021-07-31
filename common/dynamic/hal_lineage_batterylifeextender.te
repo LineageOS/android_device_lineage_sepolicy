@@ -1,0 +1,8 @@
+# HWBinder IPC from client to server
+binder_call(hal_lineage_batterylifeextender_client, hal_lineage_batterylifeextender_server)
+
+add_hwservice(hal_lineage_batterylifeextender_server, hal_lineage_batterylifeextender_hwservice)
+allow hal_lineage_batterylifeextender_client hal_lineage_batterylifeextender_hwservice:hwservice_manager find;
+
+# Allow binder communication with platform_app
+binder_call(hal_lineage_batterylifeextender, platform_app)
