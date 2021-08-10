@@ -1,0 +1,2 @@
+# Allow vendor to set suw configs
+atv.setup.          u:object_r:exported_default_prop:s0
