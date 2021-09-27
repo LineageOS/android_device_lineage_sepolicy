@@ -1,0 +1,5 @@
+# HwBinder IPC from client to server
+binder_call(hal_lineage_pocketmode_client, hal_lineage_pocketmode_server)
+
+add_hwservice(hal_lineage_pocketmode_server, hal_lineage_pocketmode_hwservice)
+allow hal_lineage_pocketmode_client hal_lineage_pocketmode_hwservice:hwservice_manager find;
