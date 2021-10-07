@@ -4,6 +4,6 @@
 #
 
 ifeq ($(TARGET_HAS_LEGACY_CAMERA_HAL1), true)
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     device/lineage/sepolicy/legacy-common/public/legacy-camera-hal1
 endif
