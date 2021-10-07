@@ -7,4 +7,4 @@ hal_client_domain(system_app, hal_lineage_livedisplay)
 hal_client_domain(system_app, hal_lineage_touch)
 
 # Allow SetupWizard to set recovery update prop
-set_prop(system_app, recovery_update_prop)
+#set_prop(system_app, recovery_update_prop)
