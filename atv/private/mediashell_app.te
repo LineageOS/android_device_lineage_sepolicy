@@ -1,0 +1,28 @@
+type mediashell_app, domain, coredomain;
+
+app_domain(mediashell_app);
+bluetooth_domain(mediashell_app);
+net_domain(mediashell_app);
+
+userdebug_or_eng(`
+   allow mediashell_app shell_data_file:file r_file_perms;
+   allow mediashell_app shell_data_file:dir r_dir_perms;
+')
+
+allow mediashell_app audioserver:fifo_file { write };
+
+allow mediashell_app app_api_service:service_manager find;
+allow mediashell_app audioserver_service:service_manager find;
+allow mediashell_app cameraserver_service:service_manager find;
+allow mediashell_app drmserver_service:service_manager find;
+allow mediashell_app mediadrmserver_service:service_manager find;
+allow mediashell_app mediaextractor_service:service_manager find;
+allow mediashell_app mediametrics_service:service_manager find;
+allow mediashell_app mediaserver_service:service_manager find;
+allow mediashell_app network_watchlist_service:service_manager find;
+allow mediashell_app nfc_service:service_manager find;
+allow mediashell_app radio_service:service_manager find;
+allow mediashell_app system_api_service:service_manager find;
+
+allow mediashell_app self:process ptrace;
+allow mediashell_app self:process ptrace;
