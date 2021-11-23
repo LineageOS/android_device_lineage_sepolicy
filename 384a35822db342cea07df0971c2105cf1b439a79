@@ -16,6 +16,24 @@
       "message": "Confirmed that this builds without neverallows and the property is labelled correctly:\n[vendor.camera.aux.packagelist]: [u:object_r:exported_default_prop:s0]\n",
       "revId": "384a35822db342cea07df0971c2105cf1b439a79",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1186ca3_229296d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2021-11-23T17:55:04Z",
+      "side": 1,
+      "message": "What device?",
+      "parentUuid": "87850996_bc50deb4",
+      "revId": "384a35822db342cea07df0971c2105cf1b439a79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
