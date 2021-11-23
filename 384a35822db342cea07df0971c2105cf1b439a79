@@ -34,6 +34,24 @@
       "parentUuid": "87850996_bc50deb4",
       "revId": "384a35822db342cea07df0971c2105cf1b439a79",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55c1f626_bb1da3c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2021-11-23T17:59:48Z",
+      "side": 1,
+      "message": "TP1803 and davinci (sm8150 and sm7150)",
+      "parentUuid": "d1186ca3_229296d4",
+      "revId": "384a35822db342cea07df0971c2105cf1b439a79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
