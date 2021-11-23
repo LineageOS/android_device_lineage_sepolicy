@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60c15a71_f40f62fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2021-11-23T18:38:20Z",
+      "side": 1,
+      "message": "This was throwing neverallows for me in emulator build",
+      "revId": "14e5081210c72fa0d61827989b11bcdc7bb46675",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
