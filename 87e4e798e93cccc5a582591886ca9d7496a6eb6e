@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92ef7041_2fdbdda2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-11-23T19:50:22Z",
+      "side": 1,
+      "message": "This will be correctly handled later, looks like Google did something different for this in S.",
+      "revId": "87e4e798e93cccc5a582591886ca9d7496a6eb6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
