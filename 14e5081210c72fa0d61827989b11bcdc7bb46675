@@ -16,6 +16,23 @@
       "message": "This was throwing neverallows for me in emulator build",
       "revId": "14e5081210c72fa0d61827989b11bcdc7bb46675",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "226fca50_ed7b4711",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6360
+      },
+      "writtenOn": "2021-11-28T15:18:34Z",
+      "side": 1,
+      "message": "can be moved to private as vendor_exported prop",
+      "revId": "14e5081210c72fa0d61827989b11bcdc7bb46675",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
