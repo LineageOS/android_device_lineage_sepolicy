@@ -1,2 +1,5 @@
+# Aux camera excludelist prop
+vendor_public_prop(vendor_persist_camera_prop)
+
 # Recovery update
 system_public_prop(recovery_update_prop)
