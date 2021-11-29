@@ -33,6 +33,23 @@
       "message": "can be moved to private as vendor_exported prop",
       "revId": "14e5081210c72fa0d61827989b11bcdc7bb46675",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ee1eb1f_1d2a92aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2021-11-29T03:55:33Z",
+      "side": 1,
+      "message": "Try relabeling it to camera_config_prop",
+      "revId": "14e5081210c72fa0d61827989b11bcdc7bb46675",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
