@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a463ecd_e505a24f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2021-12-11T14:44:57Z",
+      "side": 1,
+      "message": "I have not yet moved to 19.0 but is it *correct* to declare vendor_public_prop in public and label them in private? All usecases of a random vendor_public_prop of redbull are restricted to vendor https://github.com/LineageOS/android_device_google_redbull/search?q\u003dvendor_hw_plat_prop",
+      "revId": "d85e9c4233024eeaf63bcd66b6f9b40d0b675d03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
