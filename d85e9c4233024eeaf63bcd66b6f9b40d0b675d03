@@ -104,6 +104,24 @@
       "parentUuid": "59bbf0f0_05dad527",
       "revId": "d85e9c4233024eeaf63bcd66b6f9b40d0b675d03",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f069e628_9b1a086a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-12-29T12:34:21Z",
+      "side": 1,
+      "message": "Yeah, so I thought that we maybe should label both props in private on 18.1 too.",
+      "parentUuid": "702f9ea3_d94f8294",
+      "revId": "d85e9c4233024eeaf63bcd66b6f9b40d0b675d03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
