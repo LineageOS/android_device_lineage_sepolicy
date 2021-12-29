@@ -68,6 +68,24 @@
       "parentUuid": "27811a27_48af4723",
       "revId": "d85e9c4233024eeaf63bcd66b6f9b40d0b675d03",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59bbf0f0_05dad527",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-12-29T10:08:56Z",
+      "side": 1,
+      "message": "I\u0027m talking about booting GSI on /vendor built on LineageOS 18.1. We previously had labeled this prop in /dynamic/, which now conflicts with this change because we changed the secontext.",
+      "parentUuid": "9887e0a9_538a4786",
+      "revId": "d85e9c4233024eeaf63bcd66b6f9b40d0b675d03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
