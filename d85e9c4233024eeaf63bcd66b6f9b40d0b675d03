@@ -50,6 +50,24 @@
       "message": "Just saying, but perhaps we want to move this prop from dynamic to private on 18.1 as well because this change will break gsi targets on 18.1 vendor:\n```\n[    2.792191]@7 init: Unable to serialize property contexts: Duplicate prefix match detected for \u0027vendor.camera.aux.packageexcludelist\u0027\n```",
       "revId": "d85e9c4233024eeaf63bcd66b6f9b40d0b675d03",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9887e0a9_538a4786",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2021-12-29T05:21:41Z",
+      "side": 1,
+      "message": "but the prop in our fw is introduced by rashed, lol\nhttps://github.com/LineageOS/android_frameworks_base/commit/884fa6b77413118c160a5476bdad171c6c355df1\n\nmaybe your oem picked it. we should probably prefix the prop with vendor.lineage",
+      "parentUuid": "27811a27_48af4723",
+      "revId": "d85e9c4233024eeaf63bcd66b6f9b40d0b675d03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
