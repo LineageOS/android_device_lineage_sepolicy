@@ -25,4 +25,3 @@ allow mediashell_app radio_service:service_manager find;
 allow mediashell_app system_api_service:service_manager find;
 
 allow mediashell_app self:process ptrace;
-allow mediashell_app self:process ptrace;
