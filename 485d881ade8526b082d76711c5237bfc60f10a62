@@ -68,6 +68,24 @@
       "parentUuid": "56574b28_a31594d0",
       "revId": "485d881ade8526b082d76711c5237bfc60f10a62",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "557d6541_8fbcc41e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-01-24T11:36:40Z",
+      "side": 1,
+      "message": "Hmm... should it be system_vendor_config_prop instead? See https://source.android.com/devices/architecture/configuration/add-system-properties#step2-determine-access-levels",
+      "parentUuid": "724e9311_51f42c90",
+      "revId": "485d881ade8526b082d76711c5237bfc60f10a62",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
