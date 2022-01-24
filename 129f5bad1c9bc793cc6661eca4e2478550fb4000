@@ -33,6 +33,42 @@
       "message": "It does cause issues with legacy caf at least - I have a change to resolve that here: https://review.lineageos.org/c/LineageOS/android_device_qcom_sepolicy/+/321035",
       "revId": "129f5bad1c9bc793cc6661eca4e2478550fb4000",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8a2da5a_870508d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-01-24T12:11:56Z",
+      "side": 1,
+      "message": "What do you mean?",
+      "parentUuid": "8719c7c4_eaf5374c",
+      "revId": "129f5bad1c9bc793cc6661eca4e2478550fb4000",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1ac0357_556bb31f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-01-24T12:11:56Z",
+      "side": 1,
+      "message": "That\u0027s normal. We always had to do that. https://review.lineageos.org/c/LineageOS/android_device_qcom_sepolicy/+/320096",
+      "parentUuid": "dd56aa4c_b3dc1c6d",
+      "revId": "129f5bad1c9bc793cc6661eca4e2478550fb4000",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
