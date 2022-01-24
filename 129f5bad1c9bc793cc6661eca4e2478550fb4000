@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8719c7c4_eaf5374c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2022-01-24T12:05:14Z",
+      "side": 1,
+      "message": "would this conflict with prebuilt caf vendor? as they have different defination of vendor_persist_camera_prop",
+      "revId": "129f5bad1c9bc793cc6661eca4e2478550fb4000",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
