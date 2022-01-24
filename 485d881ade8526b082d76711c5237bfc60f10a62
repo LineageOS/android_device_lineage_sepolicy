@@ -86,6 +86,24 @@
       "parentUuid": "724e9311_51f42c90",
       "revId": "485d881ade8526b082d76711c5237bfc60f10a62",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47ffca03_f5d075cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-01-24T11:45:18Z",
+      "side": 1,
+      "message": "Yes, that seems to be better.",
+      "parentUuid": "557d6541_8fbcc41e",
+      "revId": "485d881ade8526b082d76711c5237bfc60f10a62",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
