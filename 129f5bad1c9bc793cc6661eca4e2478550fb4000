@@ -16,6 +16,23 @@
       "message": "would this conflict with prebuilt caf vendor? as they have different defination of vendor_persist_camera_prop",
       "revId": "129f5bad1c9bc793cc6661eca4e2478550fb4000",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd56aa4c_b3dc1c6d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2681
+      },
+      "writtenOn": "2022-01-24T12:07:18Z",
+      "side": 1,
+      "message": "It does cause issues with legacy caf at least - I have a change to resolve that here: https://review.lineageos.org/c/LineageOS/android_device_qcom_sepolicy/+/321035",
+      "revId": "129f5bad1c9bc793cc6661eca4e2478550fb4000",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
