@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d2220d9_fd3cb741",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-01-24T22:44:05Z",
+      "side": 1,
+      "message": "It seems like system_server is not allowed to read the props. Using system_vendor_config_prop does not grant the permissions by default, unlike it was the case with exported_default_prop on 11.\n```\n01-24 22:43:13.320  1662  2527 W libc    : Access denied finding property \"vendor.camera.aux.packagelist\"\n01-24 22:43:13.320  1662  2527 W libc    : Access denied finding property \"vendor.camera.aux.packageexcludelist\"\n01-24 22:43:13.314  1662  1662 W Binder:1662_7: type\u003d1400 audit(0.0:160): avc: denied { read } for name\u003d\"u:object_r:vendor_persist_camera_prop:s0\" dev\u003d\"tmpfs\" ino\u003d17918 scontext\u003du:r:system_server:s0 tcontext\u003du:object_r:vendor_persist_camera_prop:s0 tclass\u003dfile permissive\u003d0\n01-24 22:43:13.314  1662  1662 W Binder:1662_7: type\u003d1400 audit(0.0:161): avc: denied { read } for name\u003d\"u:object_r:vendor_persist_camera_prop:s0\" dev\u003d\"tmpfs\" ino\u003d17918 scontext\u003du:r:system_server:s0 tcontext\u003du:object_r:vendor_persist_camera_prop:s0 tclass\u003dfile permissive\u003d0\n```",
+      "revId": "5c8b31b6e4bb37673db31bb27b4984e14773222c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
