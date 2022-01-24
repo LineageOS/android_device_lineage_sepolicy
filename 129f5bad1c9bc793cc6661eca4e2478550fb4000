@@ -69,6 +69,24 @@
       "parentUuid": "dd56aa4c_b3dc1c6d",
       "revId": "129f5bad1c9bc793cc6661eca4e2478550fb4000",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32e493dd_98cee2f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-01-24T12:12:56Z",
+      "side": 1,
+      "message": "Sorry, comments missed. The prop is labeled the same way.",
+      "parentUuid": "d8a2da5a_870508d2",
+      "revId": "129f5bad1c9bc793cc6661eca4e2478550fb4000",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
