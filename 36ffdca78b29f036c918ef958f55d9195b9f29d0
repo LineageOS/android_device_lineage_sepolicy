@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b65703d2_a6f93763",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2022-02-13T14:47:41Z",
+      "side": 1,
+      "message": "Bump, used by https://github.com/LineageOS/android_vendor_lineage/blob/lineage-18.1/prebuilt/common/etc/init/lineage-iosched.rc and observed no regression.",
+      "revId": "36ffdca78b29f036c918ef958f55d9195b9f29d0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
