@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d3cc69d_42821d30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-04-02T10:01:24Z",
+      "side": 1,
+      "message": "builds without neverallow on sm8150. The allowlist works fine now in enforcing.",
+      "revId": "0dbc59f3b7e16a80ef44207f764710c1abb8071a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
