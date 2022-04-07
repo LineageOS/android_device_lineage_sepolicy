@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61f5f2d4_bfb413f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-04-07T13:32:02Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we remove this code from gallery instead? It should not be checking this prop",
+      "revId": "e790b8f33695e99658a4d37a90aa92a60af47596",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
