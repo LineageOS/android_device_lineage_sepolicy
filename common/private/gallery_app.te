@@ -25,5 +25,7 @@ allow gallery_app vendor_file:file { rx_file_perms };
 # cropping or taking user photos.
 allow gallery_app system_app_data_file:file { read write getattr };
 
+get_prop(gallery_app, qemu.hw.mainkeys);
+
 # Binder call with gpuservice
 binder_call(gallery_app, gpuservice)
