@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64c22b72_0a4ff4ff",
+        "filename": "atv/private/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-05-11T11:05:32Z",
+      "side": 1,
+      "message": "This being device-specific, should be moved to device sepolicy.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 85
+      },
+      "revId": "919b0e12859b6df02a6cf2659ac746e60397f199",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
