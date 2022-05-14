@@ -9,6 +9,12 @@ TARGET_USES_PREBUILT_VENDOR_SEPOLICY ?= true
 endif
 endif
 
+ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
+ifeq ($(TARGET_HAS_FUSEBLK_SEPOLICY_ON_VENDOR),true)
+BOARD_SEPOLICY_M4DEFS += board_excludes_fuseblk_sepolicy=true
+endif
+endif
+
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
     device/lineage/sepolicy/common/public
 
