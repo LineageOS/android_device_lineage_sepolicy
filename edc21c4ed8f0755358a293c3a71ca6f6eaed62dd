@@ -33,6 +33,23 @@
       "message": "verified on Nash with ext4 scared.",
       "revId": "edc21c4ed8f0755358a293c3a71ca6f6eaed62dd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94130b09_f138a55e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-06-07T06:11:10Z",
+      "side": 1,
+      "message": "*sdcard",
+      "revId": "edc21c4ed8f0755358a293c3a71ca6f6eaed62dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
