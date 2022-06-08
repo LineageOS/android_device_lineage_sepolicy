@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da85c7b6_d942da33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-06-08T10:53:20Z",
+      "side": 1,
+      "message": "I guess it\u0027s fine to have this here. This fixes:\n\n\u003e  06-07 14:22:24.762   955   955 W libc    : Access denied finding property \"vendor.camera.aux.packagelist\"\n\u003e  06-07 14:22:24.762   955   955 E CHIUSECASE: chxextensioninterface.cpp:571 chi_get_num_cameras() [Eeee] NOT MIUI IMAGE\n\nAnd allows camera HAL to report all available cameras.",
+      "revId": "0fb2ab762faf0fcf2680b7cdf1e213decb7c1040",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
