@@ -35,6 +35,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e62a7c5_e497f41e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-06-24T16:56:47Z",
+      "side": 1,
+      "message": "I will look into and address all of those comments - this was a direct revert, follow ups can be created, if we had squashed cleanups into this I guarantee at least someone would have asked for it to be split into revert the removal, then cleanup - which I will do.\n\nI think at least for the mkfs label, and unused comments you\u0027re entirely correct. We will test.",
+      "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "213691e9_ac019829",
