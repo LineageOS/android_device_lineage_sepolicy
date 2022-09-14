@@ -1,2 +1,0 @@
-# Allow TvSettings to read/write adb port prop
-set_prop(system_app, adbd_config_prop)
