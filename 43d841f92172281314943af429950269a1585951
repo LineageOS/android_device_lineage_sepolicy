@@ -69,6 +69,23 @@
       "parentUuid": "30ac462f_6ed9318b",
       "revId": "43d841f92172281314943af429950269a1585951",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f846cd3_a34bb4aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2022-10-31T18:47:41Z",
+      "side": 1,
+      "message": "Patch fixes this error on payton without moving the prop\n\n17:42:53.574     0     0 E [    4.422690,0] init: Do not have permissions to set \u0027ro.telephony.block_binder_thread_on_incoming_calls\u0027 to \u0027false\u0027 in property file \u0027/vendor/build.prop\u0027: SELinux permission check failed",
+      "revId": "43d841f92172281314943af429950269a1585951",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
