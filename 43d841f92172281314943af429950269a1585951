@@ -51,6 +51,24 @@
       "message": "Anything except vendor.prop will work, tested also on system.prop and system_ext.prop.",
       "revId": "43d841f92172281314943af429950269a1585951",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ead3a10f_96671379",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2022-10-31T17:50:32Z",
+      "side": 1,
+      "message": "I can copy that, moving the prop to system.prop fixes missing incoming calls with volte on payton. Please apply this patch (untested) or move the prop elsewhere: https://review.lineageos.org/q/I6a2c41e35cc3514e60e104d8eb967f331176594e",
+      "parentUuid": "30ac462f_6ed9318b",
+      "revId": "43d841f92172281314943af429950269a1585951",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
