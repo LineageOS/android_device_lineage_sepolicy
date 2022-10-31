@@ -34,6 +34,23 @@
       "parentUuid": "6fe3eea6_a56d4f89",
       "revId": "43d841f92172281314943af429950269a1585951",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30ac462f_6ed9318b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-10-31T16:23:04Z",
+      "side": 1,
+      "message": "Anything except vendor.prop will work, tested also on system.prop and system_ext.prop.",
+      "revId": "43d841f92172281314943af429950269a1585951",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
