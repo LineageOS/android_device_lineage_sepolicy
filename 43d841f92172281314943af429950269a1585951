@@ -16,6 +16,24 @@
       "message": "Hmmm, why is that any different than https://review.lineageos.org/c/LineageOS/android_frameworks_opt_telephony/+/334823, where the guys confirmed that there was no denial?",
       "revId": "43d841f92172281314943af429950269a1585951",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b87603f_e3be3147",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2022-10-31T15:56:58Z",
+      "side": 1,
+      "message": "Location of prop perhaps?\n\nThis was tested on bonito with the prop in vendor/build.prop",
+      "parentUuid": "6fe3eea6_a56d4f89",
+      "revId": "43d841f92172281314943af429950269a1585951",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
