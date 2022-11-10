@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d07dfbc_e74bbaf4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-11-10T20:44:04Z",
+      "side": 1,
+      "message": "1000% unsure _why_ this is the case, but unflattened APEX + full GMS \u003d bluetooth spazz out.",
+      "revId": "9189b8affd7f30b42e10a844dd29d8136912d460",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
