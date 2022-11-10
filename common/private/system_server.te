@@ -11,3 +11,5 @@ hal_client_domain(system_server, hal_lineage_powershare)
 
 # Let system server find auxiliary camera properties
 get_prop(system_server, vendor_persist_camera_prop)
+
+binder_call(system_server, zygote)

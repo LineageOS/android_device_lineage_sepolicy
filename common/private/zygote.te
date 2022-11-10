@@ -1,0 +1,3 @@
+binder_call(zygote, system_server)
+
+allow zygote self:capability2 wake_alarm;
