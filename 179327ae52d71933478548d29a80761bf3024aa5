@@ -52,6 +52,24 @@
       "parentUuid": "3ee757d8_3022c0a8",
       "revId": "179327ae52d71933478548d29a80761bf3024aa5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94ebb8b1_ba2e42de",
+        "filename": "common/vendor/hal_lineage_health_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-02-08T11:20:48Z",
+      "side": 1,
+      "message": "Seems that sdm845 does not include that file:\n```\n60:ifneq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))\n61-    BOARD_VENDOR_SEPOLICY_DIRS :\u003d \\\n62-                 $(BOARD_VENDOR_SEPOLICY_DIRS) \\\n63-                 $(SEPOLICY_PATH) \\\n64-                 $(SEPOLICY_PATH)/legacy/vendor/ssg \\\n65-                 $(SEPOLICY_PATH)/legacy/vendor/common\n```\nBut interestingly, in `device/lineage/sepolicy/qcom/sepolicy.mk`, it has:\n```\nifeq (,$(filter msm8960 msm8226 msm8610 msm8974 apq8084 msm8909 msm8916 msm8952 msm8992 msm8994 msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, $(TARGET_BOARD_PLATFORM)))\nBOARD_SEPOLICY_M4DEFS +\u003d \\\n    qdisplay_service\u003dvendor_qdisplay_service \\\n    sysfs_graphics\u003dvendor_sysfs_graphics \\\n    hal_keymaster_qti_exec\u003dvendor_hal_keymaster_qti_exec \\\n    persist_block_device\u003dvendor_persist_block_device \\\n    display_vendor_data_file\u003dvendor_display_vendor_data_file \\\n    hal_perf_default\u003dvendor_hal_perf_default \\\n    sysfs_battery_supply\u003dvendor_sysfs_battery_supply \\\n    sysfs_usb_supply\u003dvendor_sysfs_usb_supply\nendif\n```\nso theoretically `vendor_sysfs_battery_supply` should be defined..?\n\nWhat does `ls -alZ /sys/class/power_supply/battery/` give?",
+      "parentUuid": "4550a641_48c04bf6",
+      "revId": "179327ae52d71933478548d29a80761bf3024aa5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
