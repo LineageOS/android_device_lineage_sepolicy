@@ -88,6 +88,24 @@
       "parentUuid": "94ebb8b1_ba2e42de",
       "revId": "179327ae52d71933478548d29a80761bf3024aa5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79987ba3_de30e176",
+        "filename": "common/vendor/hal_lineage_health_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-02-08T11:25:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b3aa8ac_2568ff71",
+      "revId": "179327ae52d71933478548d29a80761bf3024aa5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
