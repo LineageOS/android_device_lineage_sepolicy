@@ -34,6 +34,24 @@
       "parentUuid": "986f431f_2ed271c5",
       "revId": "179327ae52d71933478548d29a80761bf3024aa5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4550a641_48c04bf6",
+        "filename": "common/vendor/hal_lineage_health_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 26916
+      },
+      "writtenOn": "2023-02-08T11:04:14Z",
+      "side": 1,
+      "message": "My tama devices are including device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk but still getting this error. Not sure why.",
+      "parentUuid": "3ee757d8_3022c0a8",
+      "revId": "179327ae52d71933478548d29a80761bf3024aa5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
