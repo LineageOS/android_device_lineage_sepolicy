@@ -11,5 +11,8 @@ hal_client_domain(system_server, hal_lineage_powershare)
 # Let system server find camera properties
 get_prop(system_server, camera2_extensions_prop)
 
+# Let system server set property to reflect the Restrict USB setting
+set_prop(system_server, trust_restrict_usb_prop)
+
 # Let system server toggle xtra-daemon
 set_prop(system_server, xtra_control_prop)

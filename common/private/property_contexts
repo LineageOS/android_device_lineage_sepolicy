@@ -10,6 +10,9 @@ persist.vendor.camera.privapp.list     u:object_r:camera2_extensions_prop:s0
 vendor.camera.aux.packageexcludelist   u:object_r:camera2_extensions_prop:s0
 vendor.camera.aux.packagelist          u:object_r:camera2_extensions_prop:s0
 
+# Current USB restriction setting, updated to match LineageSettings.Global.TRUST_RESTRICT_USB
+persist.init.trust_restrict_usb        u:object_r:trust_restrict_usb_prop:s0 exact int
+
 # Custom legal URL
 ro.lineagelegal.url                    u:object_r:legal_url_prop:s0
 

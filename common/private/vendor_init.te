@@ -1,2 +1,5 @@
+# Let vendor_init read a property reflecting the current Restrict USB setting
+get_prop(vendor_init, trust_restrict_usb_prop)
+
 # xtra-daemon control
 get_prop(vendor_init, xtra_control_prop)

@@ -10,3 +10,6 @@ system_internal_prop(custom_version_prop)
 
 # Recovery update
 system_internal_prop(recovery_update_prop)
+
+# USB restrictions
+system_restricted_prop(trust_restrict_usb_prop);
