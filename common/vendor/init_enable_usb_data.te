@@ -1,0 +1,20 @@
+type init_enable_usb_data, domain;
+type init_enable_usb_data_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(init_enable_usb_data)
+
+allow init_enable_usb_data vendor_shell_exec:file rx_file_perms;
+allow init_enable_usb_data vendor_toolbox_exec:file rx_file_perms;
+
+# redbull
+optional {
+    require {
+        type sysfs_typec_info;
+    }
+    allow init_enable_usb_data sysfs_typec_info:dir search;
+    allow init_enable_usb_data sysfs_typec_info:file r_file_perms;
+}
+allow init_enable_usb_data sysfs_batteryinfo:dir search;
+allow init_enable_usb_data sysfs_batteryinfo:file r_file_perms;
+allow init_enable_usb_data sysfs:dir search;
+allow init_enable_usb_data sysfs:file rw_file_perms;
