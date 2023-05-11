@@ -36,5 +36,6 @@ BOARD_SEPOLICY_M4DEFS += \
     qdisplay_service=vendor_qdisplay_service \
     sysfs_battery_supply=vendor_sysfs_battery_supply \
     sysfs_graphics=vendor_sysfs_graphics \
+    sysfs_socinfo_sensitive=vendor_sysfs_soc_sensitive \
     sysfs_usb_supply=vendor_sysfs_usb_supply
 endif
