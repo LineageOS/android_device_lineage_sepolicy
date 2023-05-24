@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dff232af_fb615f5a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2023-05-24T05:11:39Z",
+      "side": 1,
+      "message": "could you add charging-control-hal-20 topic for this?",
+      "revId": "38d28a0802de7a1e44bf86d4b77456ea4e778120",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
