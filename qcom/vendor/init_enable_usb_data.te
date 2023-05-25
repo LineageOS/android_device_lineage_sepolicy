@@ -1,0 +1,3 @@
+allow init_enable_usb_data vendor_sysfs_usb_c:dir search;
+allow init_enable_usb_data vendor_sysfs_usb_data_enabled:file rw_file_perms;
+allow init_enable_usb_data vendor_sysfs_usb_device:file rw_file_perms;
