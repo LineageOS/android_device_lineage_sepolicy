@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1e32953_4069203c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-05-30T15:06:14Z",
+      "side": 1,
+      "message": "This is broken on API 33 devices:\n\n\u003e  SELinux: The following public types were found added to the policy without an entry into the compatibility mapping file(s) found in private/compat/V.v/V.v[.ignore].cil, where V.v is the late\nst API level.\n\u003e  xtra_control_prop\n\u003e  \n\u003e  See examples of how to fix this:\n\u003e  https://android-review.googlesource.com/c/platform/system/sepolicy/+/781036\n\u003e  https://android-review.googlesource.com/c/platform/system/sepolicy/+/852612",
+      "revId": "62c9f3c955880080234e02f997a6bc217410420f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
