@@ -22,6 +22,30 @@
       },
       "revId": "d305fba4c743ac74a825fe83826c11e9f00f848e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1323fe14_c7ccaf8b",
+        "filename": "qcom/sepolicy.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-05-30T14:10:45Z",
+      "side": 0,
+      "message": "Of course, that comes from https://review.lineageos.org/c/LineageOS/android_device_lineage_sepolicy/+/346652. We can add these back later on tho.",
+      "parentUuid": "099f6505_b73b1570",
+      "range": {
+        "startLine": 38,
+        "startChar": 4,
+        "endLine": 38,
+        "endChar": 24
+      },
+      "revId": "d305fba4c743ac74a825fe83826c11e9f00f848e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
