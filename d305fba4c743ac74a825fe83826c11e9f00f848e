@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "099f6505_b73b1570",
+        "filename": "qcom/sepolicy.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-05-30T14:07:52Z",
+      "side": 0,
+      "message": "This can\u0027t be removed.\n\ndevice/lineage/sepolicy/qcom/vendor/hal_lineage_health_default.te:1:ERROR \u0027unknown type sysfs_battery_supply\u0027 at token \u0027;\u0027 on line 145954:\nallow hal_lineage_health_default sysfs_battery_supply:dir { open getattr read search ioctl lock watch watch_reads };",
+      "range": {
+        "startLine": 38,
+        "startChar": 4,
+        "endLine": 38,
+        "endChar": 24
+      },
+      "revId": "d305fba4c743ac74a825fe83826c11e9f00f848e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
