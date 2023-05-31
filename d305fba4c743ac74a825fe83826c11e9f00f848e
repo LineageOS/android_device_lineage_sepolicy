@@ -46,6 +46,30 @@
       },
       "revId": "d305fba4c743ac74a825fe83826c11e9f00f848e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d49162c_58533245",
+        "filename": "qcom/sepolicy.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-05-31T14:13:12Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "1323fe14_c7ccaf8b",
+      "range": {
+        "startLine": 38,
+        "startChar": 4,
+        "endLine": 38,
+        "endChar": 24
+      },
+      "revId": "d305fba4c743ac74a825fe83826c11e9f00f848e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
