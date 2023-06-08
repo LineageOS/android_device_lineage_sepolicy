@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9648b869_6e7e208e",
+        "filename": "common/private/compat/32.0/32.0.ignore.cil",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-06-08T15:03:46Z",
+      "side": 1,
+      "message": "This is similar to what I did here: https://review.lineageos.org/c/LineageOS/android_hardware_oplus/+/356709.",
+      "revId": "9f339edd608c819a9b430d4d6ce1d7203a75d727",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
