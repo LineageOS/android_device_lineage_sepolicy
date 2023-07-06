@@ -75,6 +75,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b07df57d_43c02c13",
+        "filename": "common/private/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-07-06T16:18:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "213691e9_ac019829",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 63
+      },
+      "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1a9e014_f251c484",
@@ -92,6 +116,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "75093ecf_e7d2ba54",
+        "filename": "common/private/fsck_untrusted.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-07-06T16:18:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "c1a9e014_f251c484",
+      "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "05c64303_40fc70ac",
@@ -105,6 +147,30 @@
       "writtenOn": "2022-06-24T05:17:47Z",
       "side": 1,
       "message": "Was removal of this tested and found to be necessary?",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 1
+      },
+      "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "feca8eec_50ba99cd",
+        "filename": "common/private/genfs_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-07-06T16:18:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "05c64303_40fc70ac",
       "range": {
         "startLine": 1,
         "startChar": 0,
@@ -138,6 +204,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ae3ce10_a37f115f",
+        "filename": "common/private/mkfs.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-07-06T16:18:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "960a209d_c583aea1",
+      "range": {
+        "startLine": 2,
+        "startChar": 5,
+        "endLine": 2,
+        "endChar": 14
+      },
+      "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "117c6bbc_c6e6bcb9",
@@ -151,6 +241,30 @@
       "writtenOn": "2022-06-24T05:17:47Z",
       "side": 1,
       "message": "Useless? The topic was for external storage support, not formatting internal partitions.",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 53
+      },
+      "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65da57ac_00270f19",
+        "filename": "common/private/mkfs.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-07-06T16:18:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "117c6bbc_c6e6bcb9",
       "range": {
         "startLine": 6,
         "startChar": 0,
@@ -178,6 +292,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "955657c6_ead7854b",
+        "filename": "common/private/system_server.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-07-06T16:18:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "57079c23_2302d9da",
+      "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ee3f6957_0959eb20",
@@ -191,6 +323,24 @@
       "writtenOn": "2022-06-24T05:17:47Z",
       "side": 1,
       "message": "Was removal of any of these lines tested and found to be necessary?",
+      "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73e6fc1d_e2c4e21d",
+        "filename": "common/private/vold.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-07-06T16:18:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "ee3f6957_0959eb20",
       "revId": "490115c0d06eae20c4bdacf4305420fe7d6a1c2a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
