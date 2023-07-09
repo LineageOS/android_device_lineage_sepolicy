@@ -16,6 +16,24 @@
       "message": "dir write to sysfs_type appears to be a neverallow:\n\n```\nneverallow check failed at out/soong/.intermediates/system/sepolicy/plat_pub_versioned.cil/android_common/plat_pub_versioned.cil:6276\n  (neverallow domain sysfs_type (dir (write create link rename add_name remove_name reparent rmdir)))\n    \u003croot\u003e\n    allow at out/soong/.intermediates/system/sepolicy/vendor_sepolicy.cil/android_common/vendor_sepolicy.cil:8848\n      (allow hal_lineage_health_default sysfs_battery_supply (dir (ioctl read write getattr lock open watch watch_reads add_name remove_name search)))\n    \u003croot\u003e\n    allow at out/soong/.intermediates/system/sepolicy/vendor_sepolicy.cil/android_common/vendor_sepolicy.cil:8851\n      (allow hal_lineage_health_default sysfs_usb_supply (dir (ioctl read write getattr lock open watch watch_reads add_name remove_name search)))\n\nneverallow check failed at out/soong/.intermediates/system/sepolicy/plat_sepolicy.cil/android_common/plat_sepolicy.cil:8723 from system/sepolicy/public/domain.te:1270\n  (neverallow domain sysfs_type (dir (write create link rename add_name remove_name reparent rmdir)))\n    \u003croot\u003e\n    allow at out/soong/.intermediates/system/sepolicy/vendor_sepolicy.cil/android_common/vendor_sepolicy.cil:8848\n      (allow hal_lineage_health_default sysfs_battery_supply (dir (ioctl read write getattr lock open watch watch_reads add_name remove_name search)))\n    \u003croot\u003e\n    allow at out/soong/.intermediates/system/sepolicy/vendor_sepolicy.cil/android_common/vendor_sepolicy.cil:8851\n      (allow hal_lineage_health_default sysfs_usb_supply (dir (ioctl read write getattr lock open watch watch_reads add_name remove_name search)))```\n      \nOr am I missing something?",
       "revId": "c86fda9bf6b12a905947ba09a147102fb09e42c5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e15163a_2615be4e",
+        "filename": "qcom/vendor/hal_lineage_health_default.te",
+        "patchSetId": 12
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 17649
+      },
+      "writtenOn": "2023-07-09T21:19:44Z",
+      "side": 1,
+      "message": "Nevermind, I was blind. Was a device tree issue.",
+      "parentUuid": "09623e16_91faa635",
+      "revId": "c86fda9bf6b12a905947ba09a147102fb09e42c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
