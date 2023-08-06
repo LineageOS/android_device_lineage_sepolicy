@@ -22,7 +22,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/lineage/sepolicy/qcom/vendor
 endif
 
-ifeq (,$(filter msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, $(TARGET_BOARD_PLATFORM)))
+ifeq (,$(filter msm8937 msm8953 msm8996 msm8998 sdm660 sdm710, $(TARGET_BOARD_PLATFORM)))
+ifneq ($(TARGET_USES_NONLEGACY_SEPOLICY), true)
 BOARD_SEPOLICY_M4DEFS += \
     display_vendor_data_file=vendor_display_vendor_data_file \
     hal_gnss_qti=vendor_hal_gnss_qti \
@@ -38,6 +39,7 @@ BOARD_SEPOLICY_M4DEFS += \
     sysfs_scsi_host=vendor_sysfs_scsi_host \
     sysfs_socinfo_sensitive=vendor_sysfs_soc_sensitive \
     sysfs_usb_supply=vendor_sysfs_usb_supply
+endif
 else
 BOARD_SEPOLICY_M4DEFS += \
     location_domain=location
