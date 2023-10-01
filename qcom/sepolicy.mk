@@ -25,6 +25,7 @@ endif
 ifeq (,$(filter msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, $(TARGET_BOARD_PLATFORM)))
 BOARD_SEPOLICY_M4DEFS += \
     display_vendor_data_file=vendor_display_vendor_data_file \
+    hal_gnss_qti=vendor_hal_gnss_qti \
     hal_keymaster_qti_exec=vendor_hal_keymaster_qti_exec \
     hal_perf_default=vendor_hal_perf_default \
     location_domain=vendor_location \
