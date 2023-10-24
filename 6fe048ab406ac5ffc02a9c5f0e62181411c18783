@@ -16,6 +16,24 @@
       "message": "This will break sdm845 devices remain as legacy.",
       "revId": "6fe048ab406ac5ffc02a9c5f0e62181411c18783",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce873c14_aa48ac12",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-24T23:22:22Z",
+      "side": 1,
+      "message": "This will break sdm845 devices *THAT* remain as legacy.",
+      "parentUuid": "46eff29b_72b5daf6",
+      "revId": "6fe048ab406ac5ffc02a9c5f0e62181411c18783",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
