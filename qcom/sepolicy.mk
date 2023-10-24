@@ -22,12 +22,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/lineage/sepolicy/qcom/vendor
 endif
 
-ifneq ($(filter msm8960 msm8226 msm8610 msm8974 apq8084 msm8909 msm8916 msm8952 msm8992 msm8994,$(TARGET_BOARD_PLATFORM)),)
-BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/qcom/legacy-vendor
-endif
-
-ifeq (,$(filter msm8960 msm8226 msm8610 msm8974 apq8084 msm8909 msm8916 msm8952 msm8992 msm8994 msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, $(TARGET_BOARD_PLATFORM)))
+ifeq (,$(filter msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, $(TARGET_BOARD_PLATFORM)))
 BOARD_SEPOLICY_M4DEFS += \
     display_vendor_data_file=vendor_display_vendor_data_file \
     hal_keymaster_qti_exec=vendor_hal_keymaster_qti_exec \
