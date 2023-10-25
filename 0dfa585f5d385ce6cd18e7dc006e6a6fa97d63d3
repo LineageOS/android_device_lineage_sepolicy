@@ -22,6 +22,30 @@
       },
       "revId": "0dfa585f5d385ce6cd18e7dc006e6a6fa97d63d3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37568380_2f81eb06",
+        "filename": "common/sepolicy.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-10-25T10:23:50Z",
+      "side": 1,
+      "message": "Nvm, it\u0027s used below",
+      "parentUuid": "d585092d_215d8973",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 5
+      },
+      "revId": "0dfa585f5d385ce6cd18e7dc006e6a6fa97d63d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
