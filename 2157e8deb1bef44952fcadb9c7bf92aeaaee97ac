@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e878df4_7bc8b37c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-26T09:01:24Z",
+      "side": 1,
+      "message": "On sm8550:\n\nout/target/product/salami/vendor/etc/selinux/vendor_sepolicy.cil:(allow vendor_location xtra_control_prop_34_0 (file (read getattr map open)))\n\nIt was also fine in sdm845.",
+      "revId": "2157e8deb1bef44952fcadb9c7bf92aeaaee97ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
