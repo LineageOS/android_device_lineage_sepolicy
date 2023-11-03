@@ -16,6 +16,23 @@
       "message": "Don\u0027t sure if I did it correctly, it works for sepolicy-legacy-um, don\u0027t know if it would be fine for the other ones",
       "revId": "0e79906d8b5be5d9ab0761fc1275eaa0d685df6a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f06b90e_da50e717",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-11-03T15:37:35Z",
+      "side": 1,
+      "message": "Works fine with sepolicy-legacy-um at least, needs to confirm with the other ones",
+      "revId": "0e79906d8b5be5d9ab0761fc1275eaa0d685df6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
