@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "697be0b2_9dc6341f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-24T01:08:32Z",
+      "side": 1,
+      "message": "+0.5V, don\u0027t feel like building selinux for newer device.",
+      "revId": "c46aa8261fbab0dbf59d5013423ff88c65913e50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
