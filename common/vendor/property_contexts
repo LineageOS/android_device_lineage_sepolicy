@@ -1,6 +1,3 @@
 # FM Radio app
 ro.vendor.builtin_fm_antenna_support   u:object_r:vendor_fm_radio_app_prop:s0 exact bool
 ro.vendor.fm.use_audio_session         u:object_r:vendor_fm_radio_app_prop:s0 exact bool
-
-# WiFi
-wifi.interface.   u:object_r:wifi_hal_prop:s0 prefix string
