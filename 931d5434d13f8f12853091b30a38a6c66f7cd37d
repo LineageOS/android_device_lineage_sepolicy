@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc8695d7_fbb2950f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-12-03T22:26:14Z",
+      "side": 1,
+      "message": "fastbootd can easily be enforced, no need to make it permissive.",
+      "revId": "931d5434d13f8f12853091b30a38a6c66f7cd37d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
