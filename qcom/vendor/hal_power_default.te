@@ -1,1 +1,7 @@
 r_dir_file(hal_power_default, sysfs_graphics)
+
+# To do powerhint on nodes defined in powerhint.json
+allow hal_power_default proc_sched_energy_aware:file rw_file_perms;
+rw_dir_file(hal_power_default, sysfs_devfreq)
+allow hal_power_default sysfs_kgsl:{file lnk_file} rw_file_perms;
+allow hal_power_default sysfs_graphics:{file lnk_file} r_file_perms;
