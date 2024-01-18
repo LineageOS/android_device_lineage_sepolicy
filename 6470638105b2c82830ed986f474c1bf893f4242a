@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4393d39b_dfa4deee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31841
+      },
+      "writtenOn": "2024-01-18T17:07:19Z",
+      "side": 1,
+      "message": "Needed this change for me to build successfully for cedric/Moto G5\nhttps://review.lineageos.org/c/LineageOS/android_device_lineage_sepolicy/+/357951\n\nprobably conflicts with other sepolicies like hw/op, see\nhttps://review.lineageos.org/c/LineageOS/android_hardware_oplus/+/357334",
+      "revId": "6470638105b2c82830ed986f474c1bf893f4242a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
