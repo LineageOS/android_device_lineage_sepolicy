@@ -16,6 +16,23 @@
       "message": "ah, no lol, If869f21c4397c65672c9319990d8dc4baca2aa3a isn\u0027t for allowing hal_gnss_qti",
       "revId": "2413d8c9100a6fc038ce9cbab038b2fb5d6e2ec8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "886ef926_13273d2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2024-01-28T09:55:50Z",
+      "side": 1,
+      "message": "bump, what\u0027s holding this change?",
+      "revId": "2413d8c9100a6fc038ce9cbab038b2fb5d6e2ec8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
