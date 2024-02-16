@@ -85,6 +85,24 @@
       "parentUuid": "4417a161_c8afdd83",
       "revId": "2413d8c9100a6fc038ce9cbab038b2fb5d6e2ec8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c72830bf_5081e35e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-02-16T05:14:52Z",
+      "side": 1,
+      "message": "this piece of code compiles into libgps.utils.so, it\u0027s also used by loc_launcher, afaik\n(but yeah, hal_gnss_qti should have access to it too anyway in my opinion)",
+      "parentUuid": "1bb90a00_11810cbf",
+      "revId": "2413d8c9100a6fc038ce9cbab038b2fb5d6e2ec8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
