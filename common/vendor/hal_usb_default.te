@@ -1,0 +1,2 @@
+allow hal_usb_default proc_deny_new_usb:file w_file_perms;
+allow hal_usb_default self:capability sys_admin;
