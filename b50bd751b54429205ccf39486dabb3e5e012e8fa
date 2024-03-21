@@ -16,6 +16,24 @@
       "message": "So abandon https://review.lineageos.org/c/LineageOS/android_device_qcom_sepolicy_vndr/+/386893 ?",
       "revId": "b50bd751b54429205ccf39486dabb3e5e012e8fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d4ba280_847f4d03",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-03-21T16:50:10Z",
+      "side": 1,
+      "message": "tbh i didn\u0027t notice it, so idk what we prefer to do here",
+      "parentUuid": "fb54cc64_474821e7",
+      "revId": "b50bd751b54429205ccf39486dabb3e5e012e8fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
