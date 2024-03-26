@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "471db992_fb8b713f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-03-26T21:08:33Z",
+      "side": 1,
+      "message": "For now, I\u0027m just wanted to know if these naming are okay. If they are, I\u0027ll start fixing up the common radio config wrapper soon. If not, Let me know how shall I change them. (someone is asking me to commonize the working version of radio config wrapper)",
+      "revId": "2ba432dd8a080171cc7ac7202372c8aa04d8c524",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
