@@ -1,0 +1,1 @@
+add_hwservice(rild, hal_lineage_radio_oldcfg_hwservice)
