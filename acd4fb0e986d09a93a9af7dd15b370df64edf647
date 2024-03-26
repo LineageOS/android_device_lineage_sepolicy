@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f85e5d3_9d3eca95",
+        "filename": "common/vendor/file_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-03-26T21:12:45Z",
+      "side": 1,
+      "message": "rename to .wrapper or keep .legacy?\nhttps://review.lineageos.org/c/LineageOS/android_hardware_lineage_interfaces/+/386293/2/radio/config/1.1/legacy/Android.bp#8",
+      "revId": "acd4fb0e986d09a93a9af7dd15b370df64edf647",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
