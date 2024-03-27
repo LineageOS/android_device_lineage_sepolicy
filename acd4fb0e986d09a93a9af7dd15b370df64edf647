@@ -52,6 +52,23 @@
       "parentUuid": "5b9ecfdb_f6b2f542",
       "revId": "acd4fb0e986d09a93a9af7dd15b370df64edf647",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f247762_7da76d06",
+        "filename": "common/vendor/hwservice_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-03-27T04:37:52Z",
+      "side": 1,
+      "message": "is that okay too?",
+      "revId": "acd4fb0e986d09a93a9af7dd15b370df64edf647",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
