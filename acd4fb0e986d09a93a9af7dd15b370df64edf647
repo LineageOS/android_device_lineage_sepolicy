@@ -34,6 +34,24 @@
       "parentUuid": "2f85e5d3_9d3eca95",
       "revId": "acd4fb0e986d09a93a9af7dd15b370df64edf647",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "155aaef6_9eb6e470",
+        "filename": "common/vendor/file_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-03-27T01:41:31Z",
+      "side": 1,
+      "message": "The name should indicate what interface it registers.\n.legacy or .wrapper, I\u0027m fine with both",
+      "parentUuid": "5b9ecfdb_f6b2f542",
+      "revId": "acd4fb0e986d09a93a9af7dd15b370df64edf647",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
