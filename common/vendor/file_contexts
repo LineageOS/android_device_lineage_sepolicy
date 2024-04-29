@@ -13,6 +13,9 @@
 # LiveDisplay HAL
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sysfs    u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
 
+# Radio HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.radio@1\.4-service\.wrapper   u:object_r:hal_radio_default_exec:s0
+
 # RadioConfig HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.radio\.config@1\.1-service\.wrapper   u:object_r:hal_radio_config_default_exec:s0
 
