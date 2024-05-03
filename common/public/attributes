@@ -1,4 +1,5 @@
 # HALs
+hal_attribute_lineage(lineage_accessories)
 hal_attribute_lineage(lineage_camera_motor)
 hal_attribute_lineage(lineage_fastcharge)
 hal_attribute_lineage(lineage_health)
