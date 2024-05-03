@@ -1,1 +1,2 @@
+vendor.lineage.accessories.IAccessories/default       u:object_r:hal_lineage_accessories_service:s0
 vendor.lineage.health.IChargingControl/default        u:object_r:hal_lineage_health_service:s0

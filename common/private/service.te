@@ -1,4 +1,5 @@
 type adbroot_service,                   service_manager_type;
+type lineage_accessories_interface_service, system_api_service, system_server_service, service_manager_type;
 type lineage_hardware_service, system_api_service, system_server_service, service_manager_type;
 type lineage_health_interface_service, system_api_service, system_server_service, service_manager_type;
 type lineage_globalactions_service, system_api_service, system_server_service, service_manager_type;
