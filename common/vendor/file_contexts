@@ -1,3 +1,6 @@
+# Accessories HAL
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.accessories-service\.mock u:object_r:hal_lineage_accessories_default_exec:s0
+
 # Camera HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.camera\.provider-service(_32)?\.lineage u:object_r:hal_camera_default_exec:s0
 

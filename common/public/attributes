@@ -1,4 +1,5 @@
 # HALs
+hal_attribute_lineage(lineage_accessories)
 hal_attribute_lineage(lineage_health)
 hal_attribute_lineage(lineage_livedisplay)
 hal_attribute_lineage(lineage_touch)

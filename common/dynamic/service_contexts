@@ -17,3 +17,4 @@ vendor.lineage.touch.IKeyDisabler/default                      u:object_r:hal_li
 vendor.lineage.touch.IKeySwapper/default                       u:object_r:hal_lineage_touch_service:s0
 vendor.lineage.touch.IStylusMode/default                       u:object_r:hal_lineage_touch_service:s0
 vendor.lineage.touch.ITouchscreenGesture/default               u:object_r:hal_lineage_touch_service:s0
+vendor.lineage.accessories.IAccessories/default                u:object_r:hal_lineage_accessories_service:s0
