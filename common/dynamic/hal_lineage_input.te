@@ -1,0 +1,4 @@
+# HwBinder IPC from client to server
+binder_call(hal_lineage_input_client, hal_lineage_input_server)
+
+hal_attribute_service(hal_lineage_input, hal_lineage_input_service)

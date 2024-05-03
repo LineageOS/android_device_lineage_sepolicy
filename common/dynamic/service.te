@@ -1,1 +1,2 @@
 type hal_lineage_health_service, hal_service_type, service_manager_type;
+type hal_lineage_input_service, hal_service_type, service_manager_type;

@@ -7,6 +7,9 @@
 # Health HAL
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.health-service\.default u:object_r:hal_lineage_health_default_exec:s0
 
+# Input HAL
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.input-service\.mock u:object_r:hal_lineage_input_default_exec:s0
+
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.aw2013 u:object_r:hal_light_default_exec:s0
 

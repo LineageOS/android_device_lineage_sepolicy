@@ -5,6 +5,7 @@ allow system_server adbroot_service:service_manager find;
 # Use HALs
 hal_client_domain(system_server, hal_lineage_fastcharge)
 hal_client_domain(system_server, hal_lineage_health)
+hal_client_domain(system_server, hal_lineage_input)
 hal_client_domain(system_server, hal_lineage_livedisplay)
 hal_client_domain(system_server, hal_lineage_touch)
 hal_client_domain(system_server, hal_lineage_powershare)
