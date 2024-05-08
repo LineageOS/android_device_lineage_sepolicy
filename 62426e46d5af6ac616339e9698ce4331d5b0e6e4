@@ -22,6 +22,30 @@
       },
       "revId": "62426e46d5af6ac616339e9698ce4331d5b0e6e4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34782fa1_f4cb8bab",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-05-08T04:33:50Z",
+      "side": 1,
+      "message": "Added them, except this line:\n`allow hal_power_default vendor_latency_device:chr_file rw_file_perms;`\n`vendor_latency_device` only exists in sepolicy_vndr. The rest I could work around via m4defs... do you have any suggestions?",
+      "parentUuid": "f9fab423_ad9f709b",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 28
+      },
+      "revId": "62426e46d5af6ac616339e9698ce4331d5b0e6e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
