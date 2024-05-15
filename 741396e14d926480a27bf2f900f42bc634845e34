@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5555b52_45d5a965",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-05-15T04:14:26Z",
+      "side": 1,
+      "message": "@mkbestas@lineageos.org - any last minute thoughts?",
+      "revId": "741396e14d926480a27bf2f900f42bc634845e34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
