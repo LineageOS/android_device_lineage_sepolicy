@@ -20,6 +20,8 @@ else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/lineage/sepolicy/qcom/dynamic \
     device/lineage/sepolicy/qcom/vendor
+
+include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 endif
 
 ifeq (,$(filter msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, $(TARGET_BOARD_PLATFORM)))

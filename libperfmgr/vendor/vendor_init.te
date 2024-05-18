@@ -1,0 +1,5 @@
+# To set powerhal init property
+set_prop(vendor_init, vendor_power_prop)
+
+# To write to VM nodes
+allow vendor_init proc_dirty:file w_file_perms;
