@@ -20,4 +20,6 @@ else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/lineage/sepolicy/exynos/dynamic \
     device/lineage/sepolicy/exynos/vendor
+
+include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 endif
