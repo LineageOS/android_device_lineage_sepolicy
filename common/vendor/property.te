@@ -1,5 +1,2 @@
 # FM Radio app
 vendor_public_prop(vendor_fm_radio_app_prop);
-
-# Power HAL
-vendor_public_prop(vendor_power_prop);
