@@ -16,6 +16,24 @@
       "message": "s/wrapper/legacy/ here for 392575: radio: 1.4: legacy: Initial wrapper (original) | https://review.lineageos.org/c/LineageOS/android_hardware_lineage_interfaces/+/392575\n\nCould just add both.",
       "revId": "b81cff7bcc04ae2101e1d00fc7e50b05dfa64b36",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "937078f7_1ea30964",
+        "filename": "common/vendor/file_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-05-23T20:46:53Z",
+      "side": 1,
+      "message": "We can add wrapper there later if that version is functional",
+      "parentUuid": "7b4f51b6_5e102886",
+      "revId": "b81cff7bcc04ae2101e1d00fc7e50b05dfa64b36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
