@@ -1,2 +1,4 @@
 # xtra-daemon control
 get_prop(location_domain, xtra_control_prop)
+
+dontaudit location_domain vendor_sysfs_soc_sensitive:file r_file_perms;
