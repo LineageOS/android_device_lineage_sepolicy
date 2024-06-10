@@ -34,3 +34,5 @@ allow mediashell_app system_linker_exec:file execute_no_trans;
 allow mediashell_app self:process ptrace;
 
 allow mediashell_app audioserver:fifo_file { write };
+
+get_prop(mediashell_app, wifi_config_prop)
