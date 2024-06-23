@@ -30,3 +30,4 @@
 
 # Vibrator HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator@1\.0-service\.lineage u:object_r:hal_vibrator_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator-service\.legacy       u:object_r:hal_vibrator_default_exec:s0
