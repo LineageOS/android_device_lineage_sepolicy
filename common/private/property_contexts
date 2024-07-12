@@ -16,3 +16,6 @@ persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
+
+# Screen mirroring disablement
+persist.sysui.disable_mirroring_confirmation_dialog u:object_r:hdmi_config_prop:s0
