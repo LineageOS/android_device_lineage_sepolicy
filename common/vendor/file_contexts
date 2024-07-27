@@ -5,6 +5,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.gnss@1\.0-service\.legacy u:object_r:hal_gnss_default_exec:s0
 
 # Health HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.batteryless u:object_r:hal_health_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.health-service\.default u:object_r:hal_lineage_health_default_exec:s0
 
 # Light HAL
