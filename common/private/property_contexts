@@ -19,3 +19,6 @@ persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact boo
 
 # Screen mirroring disablement
 persist.sysui.disable_mirroring_confirmation_dialog u:object_r:hdmi_config_prop:s0
+
+# Surfaceflinger
+ro.surface_flinger.native_window_buffers_format u:object_r:surfaceflinger_prop:s0 exact int
