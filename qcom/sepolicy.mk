@@ -28,6 +28,7 @@ BOARD_SEPOLICY_M4DEFS += \
     hal_gnss_qti=vendor_hal_gnss_qti \
     hal_keymaster_qti_exec=vendor_hal_keymaster_qti_exec \
     hal_perf_default=vendor_hal_perf_default \
+    hal_usb_qti=vendor_hal_usb_qti \
     location_domain=vendor_location \
     persist_block_device=vendor_persist_block_device \
     qdisplay_service=vendor_qdisplay_service \
