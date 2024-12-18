@@ -1,3 +1,6 @@
+# Camera IDs remapping
+vendor.camera.remapid                  u:object_r:vendor_camera_remapid_prop:s0
+
 # FM Radio app
 ro.vendor.builtin_fm_antenna_support   u:object_r:vendor_fm_radio_app_prop:s0 exact bool
 ro.vendor.fm.use_audio_session         u:object_r:vendor_fm_radio_app_prop:s0 exact bool
