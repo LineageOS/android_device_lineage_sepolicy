@@ -34,6 +34,24 @@
       "parentUuid": "4dde2ddc_b77154c7",
       "revId": "81b9029b76454a876eb63d42728665fee45ece02",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "804e3aa2_165477ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29742
+      },
+      "writtenOn": "2024-12-21T09:04:54Z",
+      "side": 1,
+      "message": "It seem like splitting it to the device tree is the way to go for now. But let\u0027s wait for others to review, maybe someone else have feels same way. Keep it Open for this patch for now.",
+      "parentUuid": "22602045_291a3b9a",
+      "revId": "81b9029b76454a876eb63d42728665fee45ece02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
