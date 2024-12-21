@@ -16,6 +16,24 @@
       "message": "This problem occurs in Android \u003c10 version that use Custom recovery.\n\n[I] https://review.lineageos.org/c/LineageOS/android_device_lineage_sepolicy/+/244801/comment/da7729ed_34647894/\n\n[I] https://github.com/TeamWin/Team-Win-Recovery-Project/issues/1517\n\n[I] https://github.com/TeamWin/Team-Win-Recovery-Project/issues/1478\n\nI have two device with F2FS on 21, 22.0, and 22.1 version. And it runs well during OTA with Lineage stock recovery.\n\nAlso, this has been partly regulated sepolicy at : \nhttps://github.com/LineageOS/android_system_sepolicy/blob/83bf38d56eac5d44b59bad9b497521274734ee34/public/uncrypt.te#L14\n\nCMIIW.",
       "revId": "81b9029b76454a876eb63d42728665fee45ece02",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22602045_291a3b9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2024-12-21T09:00:17Z",
+      "side": 1,
+      "message": "well for my device on Android 12.1/13/14/15 without this commit OTA updates won\u0027t work through the native LineageOS installer, are you suggesting I include this in my device trees instead?",
+      "parentUuid": "4dde2ddc_b77154c7",
+      "revId": "81b9029b76454a876eb63d42728665fee45ece02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
