@@ -122,6 +122,24 @@
       "parentUuid": "b4d8276a_445da60a",
       "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe6a0372_f5a3034d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-24T13:41:59Z",
+      "side": 1,
+      "message": "```\n$ rg allow\\ hal_lineage_health_default | grep vendor_sysfs_battery_supply\nvendor_sepolicy.cil:(allow hal_lineage_health_default vendor_sysfs_battery_supply (dir (ioctl read getattr lock open watch watch_reads search)))\nvendor_sepolicy.cil:(allow hal_lineage_health_default vendor_sysfs_battery_supply (file (ioctl read write getattr lock append map open watch watch_reads)))\nvendor_sepolicy.cil:(allow hal_lineage_health_default vendor_sysfs_battery_supply (lnk_file (ioctl read write getattr lock append map open watch watch_reads)))\n```\n\nin vendor/etc/selinux for sm8350, so idk, makes no sense that this changes anything for you.",
+      "parentUuid": "54bcda3e_fc6368e8",
+      "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
