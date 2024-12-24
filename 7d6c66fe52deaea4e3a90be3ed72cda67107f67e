@@ -140,6 +140,24 @@
       "parentUuid": "54bcda3e_fc6368e8",
       "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd343761_042039e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2024-12-24T13:42:14Z",
+      "side": 1,
+      "message": "It\u0027s not supported by LineageOS officially.\n\nbengal_515 platform, 5.15 kernel version",
+      "parentUuid": "b4d8276a_445da60a",
+      "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
