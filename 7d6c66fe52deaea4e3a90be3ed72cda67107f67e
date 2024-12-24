@@ -265,6 +265,24 @@
       "message": "Yes, I have installed ripgrep.",
       "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "399cb679_7fac400c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-24T14:23:06Z",
+      "side": 1,
+      "message": "eh, what does `grep \"allow hal_lineage_health_default\" $OUT/vendor/etc/selinux/vendor_sepolicy.cil` say?",
+      "parentUuid": "cbcb96e9_70c16fb5",
+      "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
