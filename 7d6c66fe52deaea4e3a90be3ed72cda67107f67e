@@ -445,6 +445,23 @@
       "parentUuid": "f3488e39_cdb7a991",
       "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5adc8c3c_b567a13d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2024-12-24T15:49:36Z",
+      "side": 1,
+      "message": "Btw, I tried add sepolicy flags manually to my device tree\n```\nSYSTEM_EXT_PRIVATE_SEPOLICY_DIRS +\u003d \\\n    device/lineage/sepolicy/qcom/private\n    \nBOARD_VENDOR_SEPOLICY_DIRS +\u003d \\\n    device/lineage/sepolicy/qcom/dynamic \\\n    device/lineage/sepolicy/qcom/vendor\n    \nBOARD_SEPOLICY_M4DEFS +\u003d \\\n    display_vendor_data_file\u003dvendor_display_vendor_data_file \\\n    hal_gnss_qti\u003dvendor_hal_gnss_qti \\\n    hal_keymaster_qti_exec\u003dvendor_hal_keymaster_qti_exec \\\n    hal_perf_default\u003dvendor_hal_perf_default \\\n    location_domain\u003dvendor_location \\\n    persist_block_device\u003dvendor_persist_block_device \\\n    qdisplay_service\u003dvendor_qdisplay_service \\\n    sysfs_battery_supply\u003dvendor_sysfs_battery_supply \\\n    sysfs_devfreq\u003dvendor_sysfs_devfreq \\\n    sysfs_graphics\u003dvendor_sysfs_graphics \\\n    sysfs_kgsl\u003dvendor_sysfs_kgsl \\\n    sysfs_scsi_host\u003dvendor_sysfs_scsi_host \\\n    sysfs_socinfo_sensitive\u003dvendor_sysfs_soc_sensitive \\\n    sysfs_usb_supply\u003dvendor_sysfs_usb_supply```\n    \nI dont see sepolicy rules for Health anyway",
+      "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
