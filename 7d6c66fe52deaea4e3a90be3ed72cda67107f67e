@@ -373,6 +373,24 @@
       "parentUuid": "09730b0a_e74a972e",
       "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09bec11d_f3a08492",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-24T14:37:42Z",
+      "side": 1,
+      "message": "then you\u0027re building a GSI or you forgot to set BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE?",
+      "parentUuid": "22eb6226_d5b065d6",
+      "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
