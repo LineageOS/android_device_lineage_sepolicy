@@ -355,6 +355,24 @@
       "parentUuid": "43825629_214566bd",
       "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22eb6226_d5b065d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2024-12-24T14:36:44Z",
+      "side": 1,
+      "message": "Yes, TARGET_USES_PREBUILT_VENDOR_SEPOLICY isn\u0027t set to `true`.",
+      "parentUuid": "09730b0a_e74a972e",
+      "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
