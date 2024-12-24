@@ -283,6 +283,24 @@
       "parentUuid": "cbcb96e9_70c16fb5",
       "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5b44a0d_c3f2febe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2024-12-24T14:29:38Z",
+      "side": 1,
+      "message": "```\n(allow hal_lineage_health_default hal_lineage_health_default_exec (file (read getattr map execute open entrypoint)))\n(allow hal_lineage_health_default servicemanager_202404 (binder (call transfer)))\n(allow hal_lineage_health_default servicemanager_202404 (fd (use)))\n```",
+      "parentUuid": "399cb679_7fac400c",
+      "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
