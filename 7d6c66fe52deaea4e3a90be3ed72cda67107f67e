@@ -68,6 +68,24 @@
       "message": "nvm it was the other way around, sysfs_usb_supply is aliased to vendor_sysfs_usb_supply for anything other than msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, so this whole change is unnecessary.",
       "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "455ea06c_d3ce093a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2024-12-24T13:38:58Z",
+      "side": 1,
+      "message": "Then why I have denials without this changes?\n\n```\navc:  denied  { search } for  name\u003d\"qcom-battery\" dev\u003d\"sysfs\" ino\u003d79074 scontext\u003du:r:hal_lineage_health_default:s0 tcontext\u003du:object_r:vendor_sysfs_battery_supply:s0 tclass\u003ddir permissive\u003d1\n\navc:  denied  { read write } for  comm\u003d\"vendor.lineage.\" name\u003d\"input_suspend\" dev\u003d\"sysfs\" ino\u003d79085 scontext\u003du:r:hal_lineage_health_default:s0 tcontext\u003du:object_r:vendor_sysfs_battery_supply:s0 tclass\u003dfile permissive\u003d1```",
+      "parentUuid": "69450ce2_26c1320e",
+      "revId": "7d6c66fe52deaea4e3a90be3ed72cda67107f67e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
