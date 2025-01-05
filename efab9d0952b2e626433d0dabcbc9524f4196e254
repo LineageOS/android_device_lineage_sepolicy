@@ -106,6 +106,24 @@
       "parentUuid": "75a14a38_788b0458",
       "revId": "efab9d0952b2e626433d0dabcbc9524f4196e254",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77010676_e9e41297",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-05T13:30:23Z",
+      "side": 1,
+      "message": "that\u0027s the problem as this is supposed to be non qcom specific.",
+      "parentUuid": "2e7309e3_021a34f6",
+      "revId": "efab9d0952b2e626433d0dabcbc9524f4196e254",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
