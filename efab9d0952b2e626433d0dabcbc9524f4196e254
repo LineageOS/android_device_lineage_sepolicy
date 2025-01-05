@@ -52,6 +52,24 @@
       "parentUuid": "3f383e62_33d66173",
       "revId": "efab9d0952b2e626433d0dabcbc9524f4196e254",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7469bba0_1d2d14f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2025-01-05T13:07:03Z",
+      "side": 1,
+      "message": "Do you mean \u0027rename camera.prop to vendor.camera.prop\u0027 in legacy similarly to `243beae70 (\"sepolicy: Fix treble violations associated with properties\")`",
+      "parentUuid": "f0e98ff4_da1c851f",
+      "revId": "efab9d0952b2e626433d0dabcbc9524f4196e254",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
