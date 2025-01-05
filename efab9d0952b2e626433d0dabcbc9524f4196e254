@@ -160,6 +160,24 @@
       "parentUuid": "a46dbb3f_d8831a30",
       "revId": "efab9d0952b2e626433d0dabcbc9524f4196e254",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9f2ab7e_02790e4c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2025-01-05T14:09:00Z",
+      "side": 1,
+      "message": "Good, specialization of particular property. LGTM.",
+      "parentUuid": "30041e5f_23982c37",
+      "revId": "efab9d0952b2e626433d0dabcbc9524f4196e254",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

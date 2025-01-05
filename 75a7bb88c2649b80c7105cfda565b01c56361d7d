@@ -16,6 +16,24 @@
       "message": "if camera hal is also supposed to set it, change to set_prop() and move below get_prop()",
       "revId": "75a7bb88c2649b80c7105cfda565b01c56361d7d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8cd9a46_86e9619e",
+        "filename": "common/vendor/hal_camera_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2025-01-05T14:09:00Z",
+      "side": 1,
+      "message": "Yes, it is... will do it.\n\nAlso per\nhttps://review.lineageos.org/c/LineageOS/android_hardware_interfaces/+/411771/6..7/camera/provider/2.4/default/LegacyCameraProviderImpl_2_4.cpp#b36\n\nI\u0027m shorting the property -\u003e s/...remapids/remapid/",
+      "parentUuid": "e8683223_0babc9a9",
+      "revId": "75a7bb88c2649b80c7105cfda565b01c56361d7d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
