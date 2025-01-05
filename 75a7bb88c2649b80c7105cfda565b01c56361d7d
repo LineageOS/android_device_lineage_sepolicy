@@ -34,6 +34,24 @@
       "parentUuid": "e8683223_0babc9a9",
       "revId": "75a7bb88c2649b80c7105cfda565b01c56361d7d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f3b8129_bba30152",
+        "filename": "common/vendor/hal_camera_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2025-01-05T14:11:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8cd9a46_86e9619e",
+      "revId": "75a7bb88c2649b80c7105cfda565b01c56361d7d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
