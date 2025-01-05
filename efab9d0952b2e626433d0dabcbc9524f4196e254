@@ -16,6 +16,24 @@
       "message": "not all trees have vendor_camera_prop type",
       "revId": "efab9d0952b2e626433d0dabcbc9524f4196e254",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f383e62_33d66173",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30475
+      },
+      "writtenOn": "2025-01-05T12:57:29Z",
+      "side": 1,
+      "message": "OK, so would you like to resolve selinux issue on tree basis?",
+      "parentUuid": "bc3c2ac8_ee696239",
+      "revId": "efab9d0952b2e626433d0dabcbc9524f4196e254",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
