@@ -3,6 +3,9 @@ userdebug_or_eng(`
 permissive recovery;
 ')
 
+# Custom version
+get_prop(recovery, custom_version_prop)
+
 # Minadbd networking support
 allow recovery node:tcp_socket node_bind;
 allow recovery port:tcp_socket name_bind;
