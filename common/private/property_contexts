@@ -1,3 +1,7 @@
+# ATV
+# used by mediashell
+ro.odm.cast.ssid_suffix u:object_r:odm_cast_prop:s0
+
 # Aux camera
 vendor.camera.aux.packageexcludelist   u:object_r:vendor_persist_camera_prop:s0
 vendor.camera.aux.packagelist          u:object_r:vendor_persist_camera_prop:s0

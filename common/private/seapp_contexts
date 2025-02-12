@@ -1,2 +1,6 @@
-user=_app isPrivApp=true seinfo=mediashell domain=mediashell_app name=com.google.android.apps.mediashell type=app_data_file levelFrom=all
+# AndroidMediaShell (mediashell_app) access to Widevine
+user=_app isPrivApp=true seinfo=mediashell domain=mediashell_app name=com.google.android.apps.mediashell type=privapp_data_file levelFrom=all
+user=_app isPrivApp=true seinfo=mediashell domain=mediashell_app name=com.google.android.apps.mediashell:* type=privapp_data_file levelFrom=all
+
+# Updater
 user=_app isPrivApp=true seinfo=platform name=org.lineageos.updater domain=updater_app type=app_data_file levelFrom=user

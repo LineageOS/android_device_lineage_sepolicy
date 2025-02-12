@@ -1,3 +1,7 @@
+# ATV
+# used by mediashell
+product_internal_prop(odm_cast_prop)
+
 # Custom legal URL
 system_internal_prop(legal_url_prop)
 
