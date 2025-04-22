@@ -4,5 +4,6 @@ lineagehealth                             u:object_r:lineage_health_interface_se
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
 lineagetrust                              u:object_r:lineage_trust_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
+lineagepowershare                         u:object_r:lineage_powershare_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0
