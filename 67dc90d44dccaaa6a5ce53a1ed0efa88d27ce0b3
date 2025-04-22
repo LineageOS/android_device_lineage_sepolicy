@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "991b3378_07f17b75",
+        "filename": "common/private/service.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-22T17:12:38Z",
+      "side": 1,
+      "message": "sort it",
+      "revId": "67dc90d44dccaaa6a5ce53a1ed0efa88d27ce0b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8f73099_5143cc3e",
+        "filename": "common/private/service_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-22T17:12:38Z",
+      "side": 1,
+      "message": "sort it",
+      "revId": "67dc90d44dccaaa6a5ce53a1ed0efa88d27ce0b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f414a1c8_cfe7a92e",
+        "filename": "common/vendor/hal_lineage_powershare_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-22T17:12:38Z",
+      "side": 1,
+      "message": "this is device-specific, can\u0027t stay here.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 54
+      },
+      "revId": "67dc90d44dccaaa6a5ce53a1ed0efa88d27ce0b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
