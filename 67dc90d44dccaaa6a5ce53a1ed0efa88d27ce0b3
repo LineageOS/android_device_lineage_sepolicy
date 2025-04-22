@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd1ce9b7_17cbaa84",
+        "filename": "common/private/service.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 35199
+      },
+      "writtenOn": "2025-04-22T17:34:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "991b3378_07f17b75",
+      "revId": "67dc90d44dccaaa6a5ce53a1ed0efa88d27ce0b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e8f73099_5143cc3e",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "013ae893_68a23c5d",
+        "filename": "common/private/service_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 35199
+      },
+      "writtenOn": "2025-04-22T17:34:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8f73099_5143cc3e",
+      "revId": "67dc90d44dccaaa6a5ce53a1ed0efa88d27ce0b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f414a1c8_cfe7a92e",
@@ -48,6 +84,30 @@
       "writtenOn": "2025-04-22T17:12:38Z",
       "side": 1,
       "message": "this is device-specific, can\u0027t stay here.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 54
+      },
+      "revId": "67dc90d44dccaaa6a5ce53a1ed0efa88d27ce0b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c564909_ca1b81f7",
+        "filename": "common/vendor/hal_lineage_powershare_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 35199
+      },
+      "writtenOn": "2025-04-22T17:34:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f414a1c8_cfe7a92e",
       "range": {
         "startLine": 9,
         "startChar": 0,
