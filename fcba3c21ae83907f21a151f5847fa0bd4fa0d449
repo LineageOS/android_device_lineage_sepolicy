@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02e64d57_f393d7c3",
+        "filename": "common/vendor/file_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-04-24T21:37:21Z",
+      "side": 1,
+      "message": "This should be removed since we are removing HIDL support",
+      "revId": "fcba3c21ae83907f21a151f5847fa0bd4fa0d449",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
