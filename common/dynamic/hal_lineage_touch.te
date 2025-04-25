@@ -3,3 +3,6 @@ binder_call(hal_lineage_touch_client, hal_lineage_touch_server)
 
 add_hwservice(hal_lineage_touch_server, hal_lineage_touch_hwservice)
 allow hal_lineage_touch_client hal_lineage_touch_hwservice:hwservice_manager find;
+
+add_service(hal_lineage_touch_server, hal_lineage_touch_service)
+allow hal_lineage_touch_client hal_lineage_touch_service:service_manager find;
