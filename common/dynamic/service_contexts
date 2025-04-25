@@ -1,2 +1,8 @@
 vendor.lineage.health.IChargingControl/default        u:object_r:hal_lineage_health_service:s0
 vendor.lineage.powershare.IPowerShare/default         u:object_r:hal_lineage_powershare_service:s0
+vendor.lineage.touch.IGloveMode/default               u:object_r:hal_lineage_touch_service:s0
+vendor.lineage.touch.IHighTouchPollingRate/default    u:object_r:hal_lineage_touch_service:s0
+vendor.lineage.touch.IKeyDisabler/default             u:object_r:hal_lineage_touch_service:s0
+vendor.lineage.touch.IKeySwapper/default              u:object_r:hal_lineage_touch_service:s0
+vendor.lineage.touch.IStylusMode/default              u:object_r:hal_lineage_touch_service:s0
+vendor.lineage.touch.ITouchscreenGesture/default      u:object_r:hal_lineage_touch_service:s0
