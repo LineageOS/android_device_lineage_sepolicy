@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "636bfc3d_2bf056d8",
+        "filename": "common/private/service.te",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-25T23:14:41Z",
+      "side": 1,
+      "message": "I don\u0027t think that this is needed.",
+      "revId": "11b23cb615467d067b64f0e3f8a54f38e5a7cb0d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "654c4517_661b25ef",
+        "filename": "common/private/service_contexts",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-25T23:14:41Z",
+      "side": 1,
+      "message": "Neither this.",
+      "revId": "11b23cb615467d067b64f0e3f8a54f38e5a7cb0d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
