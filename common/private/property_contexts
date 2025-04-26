@@ -18,6 +18,9 @@ ro.lineage.display.version             u:object_r:custom_version_prop:s0
 ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 
+# DeviceAsWebcam
+persist.vendor.uvc.disable_video_encode_flag    u:object_r:persist_vendor_daw_prop:s0
+
 # Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 
