@@ -16,6 +16,23 @@
       "message": "I know we normally don\u0027t like dontaudits on untrusted_app but good god these are so spammy you can\u0027t actually even debug other things, and it only effects low-ram, low-resource devices (ATVs).",
       "revId": "3a6e3210496a61e40b76ee79b4c499b455309e74",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c9e5189_cfd72cdc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-04-26T04:09:26Z",
+      "side": 1,
+      "message": "builds on nx and TP1803 for ATV and non ATV test targets",
+      "revId": "3a6e3210496a61e40b76ee79b4c499b455309e74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
