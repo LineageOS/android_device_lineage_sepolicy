@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86b73ca3_79dd24d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-05-06T18:22:32Z",
+      "side": 1,
+      "message": "vendor_latency_device is only defined in qcom sepolicy_vndr, this will break the build for everyone else",
+      "revId": "282afed81ee625c0d5e22a03501898031ce605c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
