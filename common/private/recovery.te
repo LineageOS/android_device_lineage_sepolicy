@@ -30,4 +30,7 @@ allowxperm recovery block_device:blk_file ioctl { HDIO_GETGEO BLKGETSIZE };
 
 # Read fbe encryption info
 r_dir_file(recovery, unencrypted_data_file)
+
+# USB Mass Storage
+set_prop(recovery, recovery_ums_prop)
 ')

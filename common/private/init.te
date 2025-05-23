@@ -1,0 +1,2 @@
+# Recovery USB Mass Storage
+get_prop(init, recovery_ums_prop)
