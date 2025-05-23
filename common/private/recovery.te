@@ -30,4 +30,8 @@ allowxperm recovery block_device:blk_file ioctl { HDIO_GETGEO BLKGETSIZE };
 
 # Read fbe encryption info
 r_dir_file(recovery, unencrypted_data_file)
+
+# USB
+allow recovery configfs:file rw_file_perms;
+allow recovery configfs:dir create_dir_perms;
 ')
