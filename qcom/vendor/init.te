@@ -1,1 +1,3 @@
-allow init firmware_file:filesystem unmount;
+recovery_only(`
+  allow init firmware_file:filesystem unmount;
+')
