@@ -1,7 +1,0 @@
-# HWBinder IPC from client to server
-binder_call(hal_lineage_fastcharge_client, hal_lineage_fastcharge_server)
-
-hal_attribute_hwservice(hal_lineage_fastcharge, hal_lineage_fastcharge_hwservice)
-
-# Allow binder communication with platform_app
-binder_call(hal_lineage_fastcharge, platform_app)
