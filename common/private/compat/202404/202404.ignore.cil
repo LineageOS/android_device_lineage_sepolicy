@@ -5,4 +5,7 @@
 (typeattribute new_objects)
 (typeattributeset new_objects
   ( new_objects
+    iso9660
+    udf
+    usb_uvc_config_prop
     xtra_control_prop))
