@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a63e3c25_f5e4c99b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-06T10:15:46Z",
+      "side": 1,
+      "message": "Noticed this on samsung sm8250 running powerhal-libperfmgr.",
+      "revId": "2c47cc7f696469e9d38348505a10afe36bae2048",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
