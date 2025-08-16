@@ -1,5 +1,4 @@
 # HwBinder IPC from client to server
 binder_call(hal_lineage_livedisplay_client, hal_lineage_livedisplay_server)
 
-hal_attribute_hwservice(hal_lineage_livedisplay, hal_lineage_livedisplay_hwservice)
 hal_attribute_service(hal_lineage_livedisplay, hal_lineage_livedisplay_service)

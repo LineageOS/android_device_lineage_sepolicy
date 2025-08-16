@@ -15,7 +15,6 @@
 
 # LiveDisplay HAL
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay-service.sysfs         u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sysfs    u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
 
 # Power HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.lineage-libperfmgr u:object_r:hal_power_default_exec:s0
