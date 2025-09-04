@@ -1,3 +1,4 @@
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/acl     u:object_r:sysfs_livedisplay_tuneable:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/cabc    u:object_r:sysfs_livedisplay_tuneable:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dc      u:object_r:sysfs_livedisplay_tuneable:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/hbm     u:object_r:sysfs_livedisplay_tuneable:s0
