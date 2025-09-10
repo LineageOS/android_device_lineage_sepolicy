@@ -22,6 +22,30 @@
       },
       "revId": "e225e9922d911fdce1c55472689cf0bed42f5cf6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62c2bfdb_4bc53a0c",
+        "filename": "qcom/private/platform_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2025-09-10T07:55:25Z",
+      "side": 1,
+      "message": "appears so https://github.com/LineageOS/android_device_qcom_sepolicy/blob/lineage-22.2-legacy-um/qva/public/attribute/attributes#L36",
+      "parentUuid": "f859af1a_3a0611ec",
+      "range": {
+        "startLine": 1,
+        "startChar": 32,
+        "endLine": 1,
+        "endChar": 48
+      },
+      "revId": "e225e9922d911fdce1c55472689cf0bed42f5cf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
