@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f859af1a_3a0611ec",
+        "filename": "qcom/private/platform_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-10T07:51:42Z",
+      "side": 1,
+      "message": "Is this defined even in legacy sepolicy?",
+      "range": {
+        "startLine": 1,
+        "startChar": 32,
+        "endLine": 1,
+        "endChar": 48
+      },
+      "revId": "e225e9922d911fdce1c55472689cf0bed42f5cf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
