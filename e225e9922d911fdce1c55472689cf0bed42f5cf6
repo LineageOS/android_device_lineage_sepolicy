@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "908c43df_167e1fe0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-10T22:07:17Z",
+      "side": 1,
+      "message": "Won\u0027t work as is on legacy devices.",
+      "revId": "e225e9922d911fdce1c55472689cf0bed42f5cf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f859af1a_3a0611ec",
@@ -62,6 +79,30 @@
       "side": 1,
       "message": "yeah, looks declared in all the right places to me.",
       "parentUuid": "62c2bfdb_4bc53a0c",
+      "range": {
+        "startLine": 1,
+        "startChar": 32,
+        "endLine": 1,
+        "endChar": 48
+      },
+      "revId": "e225e9922d911fdce1c55472689cf0bed42f5cf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e38d33f_ea481c15",
+        "filename": "qcom/private/platform_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-10T22:07:17Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/blob/lineage-22.2-legacy-um/legacy/vendor/common/attributes#L93",
+      "parentUuid": "7f90b35f_2aebdf52",
       "range": {
         "startLine": 1,
         "startChar": 32,
