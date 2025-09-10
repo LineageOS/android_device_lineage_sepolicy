@@ -27,6 +27,7 @@ BOARD_SEPOLICY_M4DEFS += \
     display_vendor_data_file=vendor_display_vendor_data_file \
     hal_gnss_qti=vendor_hal_gnss_qti \
     hal_perf_default=vendor_hal_perf_default \
+    hal_soter=vendor_hal_soter \
     location_domain=vendor_location \
     persist_block_device=vendor_persist_block_device \
     qdisplay_service=vendor_qdisplay_service \
