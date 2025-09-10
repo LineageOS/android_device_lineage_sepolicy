@@ -111,6 +111,30 @@
       },
       "revId": "e225e9922d911fdce1c55472689cf0bed42f5cf6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f134c41_5622cd03",
+        "filename": "qcom/private/platform_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-10T22:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e38d33f_ea481c15",
+      "range": {
+        "startLine": 1,
+        "startChar": 32,
+        "endLine": 1,
+        "endChar": 48
+      },
+      "revId": "e225e9922d911fdce1c55472689cf0bed42f5cf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
