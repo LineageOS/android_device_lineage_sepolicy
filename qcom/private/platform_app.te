@@ -1,0 +1,4 @@
+<<<<<<< HEAD   (681092 Revert "sepolicy: Label ro.telephony.use_old_mnc_mcc_format")
+=======
+hal_client_domain(platform_app, vendor_hal_soter)
+>>>>>>> CHANGE (bcc0b8 qcom: hal_soter -> vendor_hal_soter)
