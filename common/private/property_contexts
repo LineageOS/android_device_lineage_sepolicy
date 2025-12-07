@@ -18,6 +18,10 @@ ro.lineage.display.version             u:object_r:custom_version_prop:s0
 ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 
+# NFC
+persist.vendor.nfc.config_file_name    u:object_r:vendor_public_vendor_default_prop:s0
+persist.vendor.nfc.fw_file_name        u:object_r:vendor_public_vendor_default_prop:s0
+
 # Recovery battery
 ro.recovery.batteryless                u:object_r:recovery_config_prop:s0 exact bool
 
