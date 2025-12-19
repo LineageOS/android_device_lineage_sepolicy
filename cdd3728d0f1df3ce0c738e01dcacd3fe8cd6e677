@@ -33,6 +33,23 @@
       "message": "Ship?",
       "revId": "cdd3728d0f1df3ce0c738e01dcacd3fe8cd6e677",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "164f6988_39cfd66f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-19T03:29:14Z",
+      "side": 1,
+      "message": "libsepol.context_from_record: type vendor_public_vendor_default_prop is not defined",
+      "revId": "cdd3728d0f1df3ce0c738e01dcacd3fe8cd6e677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
