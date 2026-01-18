@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+
+version = 1
+SPDX-PackageName = "LineageOS sepolicy"
+SPDX-PackageSupplier = "The LineageOS Project"
+SPDX-PackageDownloadLocation = "https://github.com/LineageOS/android_device_lineage_sepolicy"
+
+[[annotations]]
+path = ["atv/**", "common/**", "exynos/**", "libperfmgr/**", "qcom/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "The LineageOS Project"
+SPDX-License-Identifier = "Apache-2.0"
