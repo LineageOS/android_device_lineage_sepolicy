@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac21c7cb_e313d299",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-01-24T00:28:02Z",
+      "side": 1,
+      "message": "Good on my end, but others may need to revert this from their device trees before merging",
+      "revId": "47aa306da889a49cf14b5bdc0b76dcba45d127a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
