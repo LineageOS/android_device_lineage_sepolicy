@@ -16,6 +16,24 @@
       "message": "Good on my end, but others may need to revert this from their device trees before merging",
       "revId": "6366ea6bf9e38d0761db20a1979c1df24efb719a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e4d0397_21f30d9b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-27T02:10:23Z",
+      "side": 1,
+      "message": "Nope, policy doesn\u0027t conflict unless it labels things. duplicated policy is a okay.",
+      "parentUuid": "9899f203_0f7ffde3",
+      "revId": "6366ea6bf9e38d0761db20a1979c1df24efb719a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
