@@ -8,3 +8,6 @@ set_prop(hal_power_default, vendor_power_prop)
 
 # To grant access to IStats service for metrics
 allow hal_power_default fwk_stats_service:service_manager find;
+
+# To grant access to IThermal service
+allow hal_power_default hal_thermal_service:service_manager find;
