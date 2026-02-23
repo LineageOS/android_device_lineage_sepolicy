@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce1f3548_8182de47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-02-23T22:16:17Z",
+      "side": 1,
+      "message": "```\n[100% 244/244] target Prebuilt: sepolicy_test (out/target/product/generic_arm64/obj/ETC/sepolicy_test_intermediates/sepolicy\n```",
+      "revId": "c580dedd31ee615305cc2a678ce65ce03d6de2fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
