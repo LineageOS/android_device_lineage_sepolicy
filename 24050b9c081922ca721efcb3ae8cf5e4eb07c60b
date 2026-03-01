@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b23a53d6_54b16c8a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-03-01T21:05:43Z",
+      "side": 1,
+      "message": "on rtwo testing out power-libperfmgr:\n\n03-01 12:49:50.447  1362  1362 W NodeLooperThrea: type\u003d1400 audit(0.0:1468): avc:  denied  { write } for  name\u003d\"sched_busy_hyst_ns\" dev\u003d\"proc\" ino\u003d105250 scontext\u003du:r:hal_power_default:s0 tcontext\u003du:object_r:proc:s0 tclass\u003dfile permissive\u003d0\n03-01 12:49:50.447  1362  1362 W NodeLooperThrea: type\u003d1400 audit(0.0:1469): avc:  denied  { write } for  name\u003d\"sched_busy_hysteresis_enable_cpus\" dev\u003d\"proc\" ino\u003d105251 scontext\u003du:r:hal_power_default:s0 tcontext\u003du:object_r:proc:s0 tclass\u003dfile permissive\u003d0\n03-01 12:49:50.447  1362  1362 W NodeLooperThrea: type\u003d1400 audit(0.0:1470): avc:  denied  { write } for  name\u003d\"sched_min_task_util_for_boost\" dev\u003d\"proc\" ino\u003d105252 scontext\u003du:r:hal_power_default:s0 tcontext\u003du:object_r:proc:s0 tclass\u003dfile permissive\u003d0\n03-01 12:49:50.447  1362  1362 W NodeLooperThrea: type\u003d1400 audit(0.0:1471): avc:  denied  { write } for  name\u003d\"sched_min_task_util_for_colocation\" dev\u003d\"proc\" ino\u003d105253 scontext\u003du:r:hal_power_default:s0 tcontext\u003du:object_r:proc:s0 tclass\u003dfile permissive\u003d0\n03-01 12:49:50.447  1362  1362 W NodeLooperThrea: type\u003d1400 audit(0.0:1472): avc:  denied  { write } for  name\u003d\"sched_min_task_util_for_uclamp\" dev\u003d\"proc\" ino\u003d105254 scontext\u003du:r:hal_power_default:s0 tcontext\u003du:object_r:proc:s0 tclass\u003dfile permissive\u003d0",
+      "revId": "24050b9c081922ca721efcb3ae8cf5e4eb07c60b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
