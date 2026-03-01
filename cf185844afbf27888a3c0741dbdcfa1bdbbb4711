@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8584918e_da8270ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-03-01T21:24:34Z",
+      "side": 1,
+      "message": "changed commit message to add kernel path too as some powerhint.json files would want those nodes too",
+      "revId": "cf185844afbf27888a3c0741dbdcfa1bdbbb4711",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
