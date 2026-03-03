@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e719688_06ec2fa8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-03T03:11:56Z",
+      "side": 1,
+      "message": "just move it to qcom instead of duplicating it?",
+      "revId": "90fbbd929e2b1ae062ac9826f5e5fc050e84900c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
