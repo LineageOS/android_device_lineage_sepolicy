@@ -1,2 +1,3 @@
 get_prop(hal_camera_default, vendor_persist_camera_prop)
+get_prop(hal_camera_default, vendor_camera_skip_failed_ids_prop)
 set_prop(hal_camera_default, vendor_camera_remapid_prop)

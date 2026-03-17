@@ -6,3 +6,6 @@ allow vendor_init proc_dirty:file w_file_perms;
 
 # Camera IDs remapping
 set_prop(vendor_init, vendor_camera_remapid_prop)
+
+# Camera skip failed IDs
+set_prop(vendor_init, vendor_camera_skip_failed_ids_prop)
