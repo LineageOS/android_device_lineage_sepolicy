@@ -1,6 +1,9 @@
 # Camera IDs remapping
 vendor.camera.remapid                  u:object_r:vendor_camera_remapid_prop:s0
 
+# Camera skip failed IDs
+vendor.camera.skip_failed_ids          u:object_r:vendor_camera_skip_failed_ids_prop:s0
+
 # IR
 vendor.ir.carrier_freqs                u:object_r:vendor_ir_prop:s0
 
