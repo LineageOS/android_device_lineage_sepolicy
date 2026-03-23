@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9efbaf9b_01be898b",
+        "filename": "qcom/vendor/hal_perf_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-03-23T15:56:15Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_lineage_sepolicy/blob/lineage-23.2/qcom/sepolicy.mk#L30",
+      "revId": "5d250a3d285be2c13f7bc452ad74ddfdd14a7074",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
