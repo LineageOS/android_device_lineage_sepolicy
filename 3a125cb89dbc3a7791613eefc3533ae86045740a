@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "813dd9cf_bfe1c43e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2026-03-31T16:37:11Z",
+      "side": 1,
+      "message": "Denial noticed on avalon and bale:\n\n03-27 22:01:08.663  1653  1653 I PERFD-SERVER: type\u003d1400 audit(0.0:14403): avc:  denied  { read } for  name\u003d\"sched_busy_hysteresis_enable_cpus\" dev\u003d\"proc\" ino\u003d172946 scontext\u003du:r:vendor_hal_perf_default:s0 tcontext\u003du:object_r:proc_sched:s0 tclass\u003dfile permissive\u003d1\n03-27 22:01:11.231  1653  1653 I PERFD-SERVER: type\u003d1400 audit(0.0:14413): avc:  denied  { open } for  path\u003d\"/proc/sys/walt/sched_busy_hysteresis_enable_cpus\" dev\u003d\"proc\" ino\u003d172946 scontext\u003du:r:vendor_hal_perf_default:s0 tcontext\u003du:object_r:proc_sched:s0 tclass\u003dfile permissive\u003d1",
+      "revId": "3a125cb89dbc3a7791613eefc3533ae86045740a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
