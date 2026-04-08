@@ -33,6 +33,23 @@
       "message": "Spotted on PDX223 and PDX224.",
       "revId": "3a125cb89dbc3a7791613eefc3533ae86045740a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e757fc14_a63d7637",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2026-04-08T10:46:59Z",
+      "side": 1,
+      "message": "Fixes denial on pdx257 as well",
+      "revId": "3a125cb89dbc3a7791613eefc3533ae86045740a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
