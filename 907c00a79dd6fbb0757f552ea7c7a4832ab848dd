@@ -33,6 +33,23 @@
       "message": "need to check a few things",
       "revId": "907c00a79dd6fbb0757f552ea7c7a4832ab848dd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80fd51a1_e0e09930",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-04-27T21:31:34Z",
+      "side": 1,
+      "message": "I verified that Updater, Trust and bash (`$HOSTNAME`) can still read this prop. This all makes sense because:\n```\nget_prop(updater_app, custom_version_prop)\nget_prop(system_app, custom_version_prop)\nget_prop(shell, custom_version_prop)\n```",
+      "revId": "907c00a79dd6fbb0757f552ea7c7a4832ab848dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
