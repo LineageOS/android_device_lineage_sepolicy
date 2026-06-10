@@ -19,9 +19,18 @@ ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 ro.lineage.device                      u:object_r:custom_version_prop:s0
 
+<<<<<<< HEAD   (2e6e60fdb0ce296537497c0ced7de1eaeb2074d0 libperfmgr: Allow powerhal to access thermal service)
 # NFC
 persist.vendor.nfc.config_file_name    u:object_r:vendor_persist_nfc_prop:s0 exact string
 persist.vendor.nfc.fw_file_name        u:object_r:vendor_persist_nfc_prop:s0 exact string
+=======
+# Force multi-window behavior
+ro.config.force_multi_window           u:object_r:exported_config_prop:s0 exact bool
+
+# Libgui WARs
+ro.lib_gui.buffer_dequeue_timeout_ms   u:object_r:bq_config_prop:s0
+ro.lib_gui.fence_timeout_ms            u:object_r:bq_config_prop:s0
+>>>>>>> CHANGE (2a5e2ef2a76bf4da8a9c66cc8b8f157b9d18a18d common: Label ro.config.force_multi_window prop)
 
 # Recovery battery
 ro.recovery.batteryless                u:object_r:recovery_config_prop:s0 exact bool
