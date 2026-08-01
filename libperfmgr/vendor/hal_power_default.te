@@ -11,3 +11,6 @@ allow hal_power_default fwk_stats_service:service_manager find;
 
 # Allow hal_power to access thermal service
 hal_client_domain(hal_power_default, hal_thermal)
+
+# To do powerhint on nodes defined in powerhint.json
+rw_dir_file(hal_power_default, proc)
