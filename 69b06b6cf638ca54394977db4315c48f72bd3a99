@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9cf19607_07a2badd",
+        "filename": "exynos/vendor/hal_lineage_livedisplay_exynos.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-05T13:54:32Z",
+      "side": 1,
+      "message": "Where is this defined?",
+      "range": {
+        "startLine": 16,
+        "startChar": 37,
+        "endLine": 16,
+        "endChar": 55
+      },
+      "revId": "69b06b6cf638ca54394977db4315c48f72bd3a99",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
