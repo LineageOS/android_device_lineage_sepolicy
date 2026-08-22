@@ -1,0 +1,2 @@
+# com.android.tv.settings trying to reach into com.google.android.gms
+dontaudit system_app privapp_data_file:dir search;
