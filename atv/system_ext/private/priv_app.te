@@ -1,0 +1,2 @@
+# Katniss is talkative to the point it makes logs hard to parse
+dontaudit priv_app cgroup_v2:dir search;
