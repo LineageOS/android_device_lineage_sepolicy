@@ -7,6 +7,9 @@ vendor.camera.skip_failed_ids          u:object_r:vendor_camera_skip_failed_ids_
 # IR
 vendor.ir.carrier_freqs                u:object_r:vendor_ir_prop:s0
 
+# Light
+vendor.light.backlight.disable         u:object_r:vendor_light_prop:s0
+
 # FM Radio app
 ro.vendor.builtin_fm_antenna_support   u:object_r:vendor_fm_radio_app_prop:s0 exact bool
 ro.vendor.fm.use_audio_session         u:object_r:vendor_fm_radio_app_prop:s0 exact bool
