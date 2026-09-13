@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "960147ac_9f997318",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-09-13T19:28:19Z",
+      "side": 1,
+      "message": "these were backported as some ATVs are dying on 22.2, and this cleans out their details + it updates the ATV policy to reflect the GMS they actually use now (14 based).",
+      "revId": "8de6e10c829c9ed5b524856897fe178ea7988757",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
