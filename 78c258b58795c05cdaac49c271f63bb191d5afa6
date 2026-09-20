@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "189eb177_e7b66a40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-09-20T07:20:37Z",
+      "side": 1,
+      "message": "Originally picked to sepolicy_vndr, moved it to avoid picking to every branch",
+      "revId": "78c258b58795c05cdaac49c271f63bb191d5afa6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
