@@ -1,1 +1,1 @@
-get_prop(hal_nfc_default, vendor_persist_nfc_prop)
+set_prop(hal_nfc_default, vendor_persist_nfc_prop)
