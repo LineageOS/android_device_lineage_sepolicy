@@ -1,6 +1,7 @@
 recovery_only(`
   allow init self:capability sys_module;
   allow init rootfs:system module_load;
+  allow init proc_firmware_config:file w_file_perms;
 ')
 
 dontaudit init debugfs_tracing_debug:dir mounton;
