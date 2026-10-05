@@ -12,3 +12,6 @@ set_prop(vendor_init, vendor_camera_remapid_prop)
 
 # Camera skip failed IDs
 set_prop(vendor_init, vendor_camera_skip_failed_ids_prop)
+
+# Fingerprint properties
+set_prop(vendor_init, vendor_fingerprint_prop)

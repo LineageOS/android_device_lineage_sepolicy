@@ -4,6 +4,14 @@ vendor.camera.remapid                  u:object_r:vendor_camera_remapid_prop:s0
 # Camera skip failed IDs
 vendor.camera.skip_failed_ids          u:object_r:vendor_camera_skip_failed_ids_prop:s0
 
+# Fingerprint
+persist.vendor.fingerprint.type               u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fingerprint.sensor_location    u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fingerprint.sensor_id          u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fingerprint.sensor_strength    u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fingerprint.navigation_gesture u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fingerprint.detect_interaction u:object_r:vendor_fingerprint_prop:s0
+
 # IR
 vendor.ir.carrier_freqs                u:object_r:vendor_ir_prop:s0
 
