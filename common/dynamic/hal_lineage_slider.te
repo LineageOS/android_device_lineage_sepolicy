@@ -1,0 +1,5 @@
+# HwBinder IPC from client to server
+binder_call(hal_lineage_slider_client, hal_lineage_slider_server)
+binder_call(hal_lineage_slider_server, hal_lineage_slider_client)
+
+hal_attribute_service(hal_lineage_slider, hal_lineage_slider_service)
