@@ -13,3 +13,10 @@ vendor.light.backlight.disable         u:object_r:vendor_light_prop:s0
 # FM Radio app
 ro.vendor.builtin_fm_antenna_support   u:object_r:vendor_fm_radio_app_prop:s0 exact bool
 ro.vendor.fm.use_audio_session         u:object_r:vendor_fm_radio_app_prop:s0 exact bool
+
+# Slider
+ro.vendor.slider.code                  u:object_r:vendor_slider_prop:s0 exact int
+ro.vendor.slider.display               u:object_r:vendor_slider_prop:s0 exact string
+ro.vendor.slider.edge                  u:object_r:vendor_slider_prop:s0 exact enum left top right bottom
+ro.vendor.slider.input_name            u:object_r:vendor_slider_prop:s0 exact string
+ro.vendor.slider.offset_pixels         u:object_r:vendor_slider_prop:s0 exact int
