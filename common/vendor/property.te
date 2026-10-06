@@ -12,3 +12,6 @@ vendor_internal_prop(vendor_light_prop)
 
 # FM Radio app
 vendor_public_prop(vendor_fm_radio_app_prop)
+
+# Slider
+vendor_internal_prop(vendor_slider_prop)

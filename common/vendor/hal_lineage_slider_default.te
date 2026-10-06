@@ -1,0 +1,12 @@
+type hal_lineage_slider_default, domain;
+hal_server_domain(hal_lineage_slider_default, hal_lineage_slider)
+
+type hal_lineage_slider_default_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_lineage_slider_default)
+
+binder_call(hal_lineage_slider_default, servicemanager)
+
+allow hal_lineage_slider_default input_device:dir r_dir_perms;
+allow hal_lineage_slider_default input_device:chr_file r_file_perms;
+
+get_prop(hal_lineage_slider_default, vendor_slider_prop)
