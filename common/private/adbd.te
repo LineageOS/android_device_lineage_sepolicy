@@ -1,2 +1,4 @@
-allow adbd adbroot:binder call;
-allow adbd adbroot_service:service_manager find;
+userdebug_or_eng(`
+    allow adbd adbroot:binder call;
+    allow adbd adbroot_service:service_manager find;
+')
