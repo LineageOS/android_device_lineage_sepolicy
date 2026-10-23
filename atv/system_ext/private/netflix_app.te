@@ -1,0 +1,18 @@
+type netflix_app, domain, coredomain;
+
+app_domain(netflix_app)
+untrusted_app_domain(netflix_app)
+net_domain(netflix_app)
+bluetooth_domain(netflix_app)
+
+# Preserve the legacy ashmem access used by apps targeting Android 14
+allow netflix_app domain:memfd_file ioctl;
+allowxperm netflix_app domain:memfd_file ioctl ashmem_ioctls;
+allow netflix_app ashmem_libcutils_device:chr_file open;
+
+# Netflix monitors memory pressure through PSI
+allow netflix_app proc_pressure_mem:file { getattr open read };
+
+# Suppress probes for system statistics unavailable to untrusted apps
+dontaudit netflix_app cgroup_v2:dir search;
+dontaudit netflix_app { proc_loadavg proc_net proc_swaps }:file read;
