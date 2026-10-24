@@ -16,6 +16,23 @@
       "message": "Check signature against some tegra dump, plz.",
       "revId": "a29110ed8d2933c8f0da9c6ff613c4b68b7e4ad8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fcd610e_57ed609b",
+        "filename": "atv/system_ext/private/certs/netflix.x509.pem",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-24T18:38:32Z",
+      "side": 1,
+      "message": "```\nnolenjohnson@ODS-PROD:~/dumps/nvidia/darcy/dump/vendor/app/Netflix$ cat cert.pem \nsubject\u003dC\u003dUS, ST\u003dCalifornia, L\u003dLos Gatos, O\u003dNetflix, Inc., OU\u003dPPD, CN\u003dPPD Builder\nissuer\u003dC\u003dUS, ST\u003dCalifornia, L\u003dLos Gatos, O\u003dNetflix, Inc., OU\u003dPPD, CN\u003dPPD Builder\n-----BEGIN CERTIFICATE-----\nMIICVjCCAb8CBEwOeNIwDQYJKoZIhvcNAQEEBQAwcjELMAkGA1UEBhMCVVMxEzAR\nBgNVBAgTCkNhbGlmb3JuaWExEjAQBgNVBAcTCUxvcyBHYXRvczEWMBQGA1UEChMN\nTmV0ZmxpeCwgSW5jLjEMMAoGA1UECxMDUFBEMRQwEgYDVQQDEwtQUEQgQnVpbGRl\ncjAeFw0xMDA2MDgxNzA3MzBaFw0zNzEwMjQxNzA3MzBaMHIxCzAJBgNVBAYTAlVT\nMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRIwEAYDVQQHEwlMb3MgR2F0b3MxFjAUBgNV\nBAoTDU5ldGZsaXgsIEluYy4xDDAKBgNVBAsTA1BQRDEUMBIGA1UEAxMLUFBEIEJ1\naWxkZXIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKpYRP8uxGlVi8nVwyGC\nFvHgg4RpPonMTLpUIZoULCm2ZfyMwH4om3xjznV2PO1e36PWqLQSfEcdUJltzxnO\nwboAkg0KmPJCX8AYTcssQV9BdkOkaCcoHeV+OkGopfS8tHtsNFOPLNLEJSUKqkCD\nwKgPxO+M+XvzRjB7O2RNnSVPAgMBAAEwDQYJKoZIhvcNAQEEBQADgYEAEK7Xfej7\nuW4fAjIIx0cYpkJBGOGdRFe1VBzBjXxS/8bE/Kpbv9AnQIT+PhKaPN1lPJ1eMKwJ\nfn9XttYuPgPo4kOzTT7L3N7AiP6JBklT/FMnv6toNHstdXREo8NyKz/sB+33GVsk\n78bip7OoWshXo/x7Q3Naq+I80jVcOyfz82o\u003d\n-----END CERTIFICATE-----\n```\n\nfrom `productionBL-droid-signed-darcy-full_ota-13961458_4231.0265_B1E3E6.zip` (EOL build, Shield TV 2017)",
+      "revId": "a29110ed8d2933c8f0da9c6ff613c4b68b7e4ad8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
