@@ -1,2 +1,1 @@
-hal_client_domain(platform_app, vendor_hal_soter)
-hal_client_domain(platform_app_36, vendor_hal_soter)
+hal_client_domain(platform_app_all, vendor_hal_soter)
