@@ -1,2 +1,4 @@
 # Katniss is talkative to the point it makes logs hard to parse
-dontaudit priv_app_36 cgroup_v2:dir search;
+dontaudit priv_app_36 cgroup_v2:dir search
+;
+get_prop(priv_app_36, vendor_katniss_prop)
