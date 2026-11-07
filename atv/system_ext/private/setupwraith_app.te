@@ -1,0 +1,3 @@
+allow setupwraith_app radio_service:service_manager find;
+
+get_prop(setupwraith_app, odm_cast_prop)
