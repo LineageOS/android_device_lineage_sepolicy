@@ -11,7 +11,10 @@ allowxperm netflix_app domain:memfd_file ioctl ashmem_ioctls;
 allow netflix_app ashmem_libcutils_device:chr_file open;
 
 # Netflix monitors memory pressure through PSI
+allow netflix_app proc_stat:file r_file_perms;
+allow netflix_app proc_loadavg:file r_file_perms;
 allow netflix_app proc_pressure_mem:file { getattr open read };
+allow netflix_app proc_swaps:file r_file_perms;
 
 # Suppress probes for system statistics unavailable to untrusted apps
 dontaudit netflix_app cgroup_v2:dir search;
