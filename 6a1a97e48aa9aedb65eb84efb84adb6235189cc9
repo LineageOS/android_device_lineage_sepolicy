@@ -16,6 +16,29 @@
       "message": "heh, like the title",
       "revId": "6a1a97e48aa9aedb65eb84efb84adb6235189cc9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92feb8b4_d02df99c",
+        "filename": "atv/system_ext/private/netflix_app.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-13T19:48:31Z",
+      "side": 1,
+      "message": "why isn\u0027t proc_net in the upper rule?",
+      "range": {
+        "startLine": 20,
+        "startChar": 22,
+        "endLine": 20,
+        "endChar": 30
+      },
+      "revId": "6a1a97e48aa9aedb65eb84efb84adb6235189cc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
