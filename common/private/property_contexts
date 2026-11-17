@@ -20,6 +20,9 @@ ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 ro.lineage.device                      u:object_r:custom_version_prop:s0
 
+# Display
+ro.bootanim.set_orientation_logical_0  u:object_r:surfaceflinger_prop:s0 exact enum ORIENTATION_0 ORIENTATION_90 ORIENTATION_180 ORIENTATION_270
+
 # Force multi-window behavior
 ro.config.force_multi_window           u:object_r:exported_config_prop:s0 exact bool
 
