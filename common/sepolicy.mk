@@ -25,6 +25,9 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/vendor
 endif
 
+# Include firewall rules when the firewall's repo is present
+-include packages/apps/Firewall/sepolicy/sepolicy.mk
+
 # Include atv rules on atv product
 ifeq ($(PRODUCT_IS_ATV), true)
 include device/lineage/sepolicy/atv/sepolicy.mk
